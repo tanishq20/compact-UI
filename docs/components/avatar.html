@@ -7,20 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Compact UI | Introduction</title>
     <script src="https://kit.fontawesome.com/4f4010c8fe.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./stylesheets/main.css">
-    <link rel="shortcut icon" href="../assets/logo/favicon.ico">
+    <link rel="stylesheet" href="../stylesheets/main.css">
+    <link rel="stylesheet" href="../../stylesheets/style.css">
+    <link rel="shortcut icon" href="../../assets/logo/favicon.ico">
 </head>
 
 <body>
     <div class="container">
         <nav class="navbar">
-            <div class="nav-left"><a href="../index.html" class="nav-left-link"><img src="../assets/logo/logo.png"
+            <div class="nav-left"><a href="../../index.html" class="nav-left-link"><img src="../../assets/logo/logo.png"
                         alt="logo"> Compact UI</a></div>
             <div class="nav-right">
                 <ul>
-                    <li><a href="../index.html" class="nav-right-link">Home <i class="fas fa-home"></i></a></li>
-                    <li><a href="./docs/introduction.html" class="nav-right-link">Docs <i
-                                class="fas fa-file-word"></i></a></li>
+                    <li><a href="../../index.html" class="nav-right-link">Home <i class="fas fa-home"></i></a></li>
+                    <li><a href="../introduction.html" class="nav-right-link">Docs <i class="fas fa-file-word"></i></a>
+                    </li>
                     <li><a href="https://github.com/tanishq20" target="_blank" class="nav-right-link">GitHub <i
                                 class="fab fa-github"></i></a></li>
                 </ul>
@@ -36,7 +37,7 @@
                 </ul>
                 <div class="sidebar-heading">Components</div>
                 <ul class="sidebar-items">
-                    <li class="sidebar-items-link"><a href="./components/avatar.html">Avatar</a></li>
+                    <li class="sidebar-items-link active-state"><a href="#">Avatar</a></li>
                     <li class="sidebar-items-link"><a href="#">Badge</a></li>
                     <li class="sidebar-items-link"><a href="#">Alert</a></li>
                     <li class="sidebar-items-link"><a href="#">Button</a></li>
@@ -56,11 +57,32 @@
                     <li class="sidebar-items-link"><a href="#">Get involved</a></li>
                 </ul>
             </aside>
+
             <main class="main-content">
                 <div class="component-showcase">
-
+                    <div class="avatar-container rounded-5">
+                        <div class="showcase-avatar">
+                            <img src="../../assets/avatar/man-avatar.jpg" alt="avatar" class="avatar">
+                            <img src="../../assets/avatar/woman-avatar.jpg" alt="avatar" class="avatar">
+                            <img src="../../assets/avatar/android-avatar.jpg" alt="avatar" class="avatar">
+                        </div>
+                        <div class="showcase-avatar">
+                            <img src="../../assets/avatar/man-avatar.jpg" alt="avatar" class="avatar sm-avatar">
+                            <img src="../../assets/avatar/woman-avatar.jpg" alt="avatar" class="avatar md-avatar">
+                            <img src="../../assets/avatar/android-avatar.jpg" alt="avatar" class="avatar lg-avatar">
+                        </div>
+                        <div class="showcase-avatar">
+                            <img src="../../assets/avatar/man-avatar.jpg" alt="avatar"
+                                class="avatar square-avatar sm-avatar">
+                            <img src="../../assets/avatar/woman-avatar.jpg" alt="avatar"
+                                class="avatar square-avatar md-avatar">
+                            <img src="../../assets/avatar/android-avatar.jpg" alt="avatar"
+                                class="avatar square-avatar lg-avatar">
+                        </div>
+                    </div>
                 </div>
             </main>
+
         </div>
     </div>
 </body>

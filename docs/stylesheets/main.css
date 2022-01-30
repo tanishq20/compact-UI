@@ -1,0 +1,78 @@
+/* Docs css import */
+@import url('base/utilities.css');
+@import url('layout/navbar.css');
+@import url('layout/footer.css');
+
+/* Universal css import */
+@import url('../../stylesheets/abstracts/colors.css');
+@import url('../../stylesheets/abstracts/variables.css');
+@import url('../../stylesheets/base/reset.css');
+@import url('../../stylesheets/base/typography.css');
+@import url('../../stylesheets/base/utilities.css');
+
+body {
+  background-color: var(--default-color);
+}
+
+.container {
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* docs */
+
+.doc-container {
+  display: flex;
+  max-width: 100%;
+}
+
+/* sidebar */
+
+.sidebar {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 250px;
+  background-color: var(--secondary-400);
+  color: var(--white);
+  min-height: calc(100vh - 98px);
+}
+
+.sidebar-heading {
+  margin-top: 3rem;
+  padding: 0 2rem;
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.sidebar-items {
+  margin-top: 1.5rem;
+  padding: 0 3rem;
+  list-style: none;
+  border-top: 2px solid var(--secondary-color);
+}
+
+.sidebar-items-link {
+  margin: 20px 0;
+}
+
+.sidebar-items-link a {
+  font-size: 1.8rem;
+  font-weight: 400;
+  transition: all 0.3s ease-in-out;
+}
+
+.sidebar-items-link a:hover {
+  color: var(--active-color);
+}
+
+.sidebar-items-link a:focus {
+  color: var(--active-hover);
+}
+
+/* main-content */
+
+.main-content {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+}

@@ -1,0 +1,63 @@
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.left {
+  left: 2rem;
+}
+
+.right {
+  right: 2rem;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.order-0 {
+  order: 0;
+}
+
+.order-1 {
+  order: 1;
+}
+
+.rounded-5 {
+  border-radius: 5px;
+}
+
+.rounded-top-5 {
+  border-top-left-radius: 5px;
+}
+
+.rounded-right-5 {
+  border-top-right-radius: 5px;
+}
+
+.rounded-bottom-5 {
+  border-bottom-right-radius: 5px;
+}
+
+.rounded-left-5 {
+  border-bottom-left-radius: 5px;
+}

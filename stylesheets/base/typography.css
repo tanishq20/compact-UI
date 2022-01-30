@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+/* Heading sizes */
+.heading-1 {
+  font-size: 4.8rem;
+  line-height: 6.4rem;
+}
+
+.heading-2 {
+  font-size: 3.2rem;
+  line-height: 4rem;
+}
+
+.heading-3 {
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+}
+
+.heading-4 {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.heading-5 {
+  font-size: 0.8rem;
+  line-height: 1.6rem;
+}
+
+/* Font weight */
+.font-light {
+  font-weight: 300;
+}
+
+.font-regular {
+  font-weight: 400;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-bolder {
+  font-weight: 900;
+}

@@ -5,12 +5,20 @@
 /* component showcase css */
 
 .component-showcase {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 20px;
-  padding: 10rem;
+  background-color: var(--default-hover);
+  padding: 2rem;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  box-shadow: 0 0 5px rgb(0 0 0 / 60%);
+}
+
+.component-code-showcase {
+  margin-bottom: 1rem;
 }
 
 .showcase-badge {

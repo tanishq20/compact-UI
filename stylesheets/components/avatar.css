@@ -1,0 +1,26 @@
+.avatar {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+.sm-avatar {
+  height: 24px;
+  width: 24px;
+}
+
+.md-avatar {
+  height: 40px;
+  width: 40px;
+}
+
+.lg-avatar {
+  height: 56px;
+  width: 56px;
+}
+
+.square-avatar {
+  border-radius: 5px;
+}

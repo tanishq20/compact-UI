@@ -12,3 +12,13 @@
   gap: 20px;
   padding: 10rem;
 }
+
+.showcase-badge {
+  background-color: var(--secondary-400);
+  padding: 2.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}

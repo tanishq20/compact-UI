@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compact UI | Badge</title>
+    <script src="https://kit.fontawesome.com/4f4010c8fe.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../stylesheets/main.css">
+    <link rel="stylesheet" href="../../stylesheets/style.css">
+    <link rel="shortcut icon" href="../../assets/logo/favicon.ico">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="nav-left"><a href="../../index.html" class="nav-left-link"><img src="../../assets/logo/logo.png"
+                        alt="logo"> Compact UI</a></div>
+            <div class="nav-right">
+                <ul>
+                    <li><a href="../../index.html" class="nav-right-link">Home <i class="fas fa-home"></i></a></li>
+                    <li><a href="../introduction.html" class="nav-right-link">Docs <i class="fas fa-file-word"></i></a>
+                    </li>
+                    <li><a href="https://github.com/tanishq20" target="_blank" class="nav-right-link">GitHub <i
+                                class="fab fa-github"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="doc-container">
+            <aside class="sidebar">
+                <div class="sidebar-heading">Getting Started</div>
+                <ul class="sidebar-items">
+                    <li class="sidebar-items-link"><a href="#">Introduction</a></li>
+                    <li class="sidebar-items-link"><a href="#">Installation</a></li>
+                </ul>
+                <div class="sidebar-heading">Components</div>
+                <ul class="sidebar-items">
+                    <li class="sidebar-items-link"><a href="#">Avatar</a></li>
+                    <li class="sidebar-items-link active-state"><a href="./badge.html">Badge</a></li>
+                    <li class="sidebar-items-link"><a href="#">Alert</a></li>
+                    <li class="sidebar-items-link"><a href="#">Button</a></li>
+                    <li class="sidebar-items-link"><a href="#">Card</a></li>
+                    <li class="sidebar-items-link"><a href="#">Image</a></li>
+                    <li class="sidebar-items-link"><a href="#">Input</a></li>
+                </ul>
+                <div class="sidebar-heading">Customization</div>
+                <ul class="sidebar-items">
+                    <li class="sidebar-items-link"><a href="#">Theme</a></li>
+                    <li class="sidebar-items-link"><a href="#">Palette</a></li>
+                    <li class="sidebar-items-link"><a href="#">Typography</a></li>
+                </ul>
+                <div class="sidebar-heading">Overview</div>
+                <ul class="sidebar-items">
+                    <li class="sidebar-items-link"><a href="#">Conclusion</a></li>
+                    <li class="sidebar-items-link"><a href="#">Get involved</a></li>
+                </ul>
+            </aside>
+
+            <main class="main-content">
+                <div class="component-showcase">
+                    <div class="showcase-badge rounded-5">
+                        <h1 class="badge position-relative">
+                            Text with a badge
+                            <span class="badge-content position-absolute sm-badge">4</span>
+                        </h1>
+                    </div>
+                    <div class="showcase-badge rounded-5">
+                        <h1 class="badge position-relative">
+                            Text with large badge
+                            <span class="badge-content position-absolute lg-badge">4</span>
+                        </h1>
+                    </div>
+                    <div class="showcase-badge rounded-5">
+                        <h1 class="badge">
+                            Button toggles badge visiblity
+                            <a href="#" class="badge-btn rounded-5 position-relative">Action
+                                <span class="badge-content position-absolute sm-badge-left">8</span>
+                            </a>
+                        </h1>
+                    </div>
+                    <div class="showcase-badge rounded-5">
+                        <h1 class="badge">
+                            Button toggles badge visiblity
+                            <a class="badge-btn rounded-5 position-relative" id="badgeBtn">Hide
+                                <span id="hideBadge" class="badge-content position-absolute sm-badge">7</span>
+                            </a>
+                        </h1>
+                    </div>
+                    <div class="showcase-badge rounded-5">
+                        <h1 class="badge position-relative">
+                            Icon with a badge
+                            <i class="fas fa-home badge-icon"></i>
+                            <span class="badge-content position-absolute sm-badge">20</span>
+                        </h1>
+                    </div>
+                    <div class="showcase-badge rounded-5">
+                        <h1 class="badge position-relative">
+                            Avatar with a badge
+                            <img src="../../assets/badge/man-avatar.jpg" alt="avatar" class="badge-avatar">
+                            <span class="badge-content position-absolute sm-badge">20</span>
+                        </h1>
+                    </div>
+                </div>
+        </div>
+        </main>
+    </div>
+    </div>
+
+    <script src="../js/badge.js"></script>
+</body>
+
+</html>

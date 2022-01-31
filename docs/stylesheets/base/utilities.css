@@ -1,3 +1,9 @@
+.active-state {
+  color: var(--active-hover);
+}
+
+/* component showcase css */
+
 .component-showcase {
   display: flex;
   justify-content: center;

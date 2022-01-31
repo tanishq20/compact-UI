@@ -66,10 +66,6 @@ body {
   color: var(--active-color);
 }
 
-.sidebar-items-link a:focus {
-  color: var(--active-hover);
-}
-
 /* main-content */
 
 .main-content {

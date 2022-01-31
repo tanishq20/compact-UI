@@ -5,18 +5,17 @@
 /* component showcase css */
 
 .component-showcase {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 20px;
-  padding: 10rem;
+  background-color: var(--default-hover);
+  padding: 2rem;
+  gap: 2rem;
+  margin-bottom: 3rem;
 }
 
-.showcase-avatar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-  margin-top: 2rem;
+.component-code-showcase {
+  margin-bottom: 1rem;
 }

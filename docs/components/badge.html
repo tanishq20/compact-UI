@@ -15,8 +15,12 @@
 <body>
     <div class="container">
         <nav class="navbar">
-            <div class="nav-left"><a href="../../index.html" class="nav-left-link"><img src="../../assets/logo/logo.png"
-                        alt="logo"> Compact UI</a></div>
+            <div class="nav-left">
+                <a href="../../index.html" class="nav-left-link">
+                    <img src="../../assets/logo/logo.png" alt="logo">
+                    Compact UI
+                </a>
+            </div>
             <div class="nav-right">
                 <ul>
                     <li><a href="../../index.html" class="nav-right-link">Home <i class="fas fa-home"></i></a></li>
@@ -37,7 +41,7 @@
                 </ul>
                 <div class="sidebar-heading">Components</div>
                 <ul class="sidebar-items">
-                    <li class="sidebar-items-link"><a href="#">Avatar</a></li>
+                    <li class="sidebar-items-link"><a href="./avatar.html">Avatar</a></li>
                     <li class="sidebar-items-link active-state"><a href="./badge.html">Badge</a></li>
                     <li class="sidebar-items-link"><a href="#">Alert</a></li>
                     <li class="sidebar-items-link"><a href="#">Button</a></li>
@@ -59,53 +63,136 @@
             </aside>
 
             <main class="main-content">
-                <div class="component-showcase">
-                    <div class="showcase-badge rounded-5">
-                        <h1 class="badge position-relative">
-                            Text with a badge
-                            <span class="badge-content position-absolute sm-badge">4</span>
-                        </h1>
-                    </div>
-                    <div class="showcase-badge rounded-5">
-                        <h1 class="badge position-relative">
-                            Text with large badge
-                            <span class="badge-content position-absolute lg-badge">4</span>
-                        </h1>
-                    </div>
-                    <div class="showcase-badge rounded-5">
-                        <h1 class="badge">
-                            Button toggles badge visiblity
-                            <a href="#" class="badge-btn rounded-5 position-relative">Action
-                                <span class="badge-content position-absolute sm-badge-left">8</span>
-                            </a>
-                        </h1>
-                    </div>
-                    <div class="showcase-badge rounded-5">
-                        <h1 class="badge">
-                            Button toggles badge visiblity
-                            <a class="badge-btn rounded-5 position-relative" id="badgeBtn">Hide
-                                <span id="hideBadge" class="badge-content position-absolute sm-badge">7</span>
-                            </a>
-                        </h1>
-                    </div>
-                    <div class="showcase-badge rounded-5">
-                        <h1 class="badge position-relative">
-                            Icon with a badge
-                            <i class="fas fa-home badge-icon"></i>
-                            <span class="badge-content position-absolute sm-badge">20</span>
-                        </h1>
-                    </div>
-                    <div class="showcase-badge rounded-5">
-                        <h1 class="badge position-relative">
-                            Avatar with a badge
-                            <img src="../../assets/badge/man-avatar.jpg" alt="avatar" class="badge-avatar">
-                            <span class="badge-content position-absolute sm-badge">20</span>
-                        </h1>
-                    </div>
+                <h1 class="main-head">Badge</h1>
+                <p class="main-desc">Badge is a label that holds small amounts of information. A badge can be used to
+                    display unread notifications, or to label a block of text.
+                </p>
+                <div class="section-change"></div>
+                <h3 class="main-subhead">Text-only sm-badge</h3>
+                <p class="main-desc">To obtain this result, use <i>span</i> tag with <i>badge-content</i>,
+                    <i>position-relative</i> and <i>sm-badge</i> class name.
+                </p>
+                <div class="component-showcase rounded-5">
+                    <p class="badge position-relative">
+                        Text with a badge
+                        <span class="badge-content position-absolute sm-badge">4</span>
+                    </p>
                 </div>
+                <div class="component-code-showcase">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2846%2C54%2C62%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=26px&wc=true&wa=true&pv=41px&ph=47px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522badge%2520position-relative%2522%253E%250A%2520%2520%2520%2520%2520%2520Text%2520with%2520a%2520badge%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-content%2520position-absolute%2520sm-badge%2522%253E4%253C%252Fspan%253E%250A%253C%252Fp%253E"
+                        style="width: 100%; height: 262px; border: 0; transform: scale(1); overflow: hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <div class="section-change"></div>
+                <h3 class="main-subhead">Text-only lg-badge</h3>
+                <p class="main-desc">To obtain this result, use <i>span</i> tag with <i>badge-content</i>,
+                    <i>position-relative</i> and <i>lg-badge</i> class name.
+                </p>
+                <div class="component-showcase rounded-5">
+                    <p class="badge position-relative">
+                        Text with large badge
+                        <span class="badge-content position-absolute lg-badge">4</span>
+                    </p>
+                </div>
+                <div class="component-code-showcase">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2846%2C54%2C62%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=26px&wc=true&wa=true&pv=41px&ph=47px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522badge%2520position-relative%2522%253E%250A%2520%2520%2520%2520%2520%2520Text%2520with%2520large%2520badge%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-content%2520position-absolute%2520lg-badge%2522%253E4%253C%252Fspan%253E%250A%253C%252Fp%253E"
+                        style="width: 100%; height: 262px; border: 0; transform: scale(1); overflow: hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <div class="section-change"></div>
+                <h3 class="main-subhead">Action Badge</h3>
+                <p class="main-desc">To obtain this result, use <i>a</i> tag with <i>badge-btn</i>,
+                    <i>position-relative</i> class name and <i>span</i> tag with <i>badge-content</i>,
+                    <i>position-relative</i>, <i>sm-badge</i> class name.
+                </p>
+                <div class="component-showcase rounded-5">
+                    <p class="badge">
+                        Button with a badge on the left
+                        <a href="#" class="badge-btn rounded-5 position-relative">Action
+                            <span class="badge-content position-absolute sm-badge-left">8</span>
+                        </a>
+                    </p>
+                </div>
+                <div class="component-code-showcase">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2846%2C54%2C62%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=26px&wc=true&wa=true&pv=41px&ph=47px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520Button%2520with%2520a%2520badge%2520on%2520the%2520left%250A%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522badge-btn%2520rounded-5%2520position-relative%2522%253EAction%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-content%2520position-absolute%2520sm-badge-left%2522%253E8%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%253C%252Fp%253E"
+                        style="width: 100%; height: 300px; border: 0; transform: scale(1); overflow: hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <div class="section-change"></div>
+                <h3 class="main-subhead">Toggle Badge</h3>
+                <p class="main-desc">To obtain this result, use <i>a</i> tag with <i>badge-btn</i>,
+                    <i>position-relative</i> class name with <i>badgeBtn</i> id and <i>span</i> tag with
+                    <i>badge-content</i>,
+                    <i>position-relative</i>, <i>sm-badge</i> class name.
+                </p>
+                <div class="component-showcase rounded-5">
+                    <p class="badge">
+                        Button toggles badge visiblity
+                        <a class="badge-btn rounded-5 position-relative" id="badgeBtn">Toggle
+                            <span class="badge-content position-absolute sm-badge">7</span>
+                        </a>
+                    </p>
+                </div>
+                <div class="component-code-showcase">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2846%2C54%2C62%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=26px&wc=true&wa=true&pv=41px&ph=47px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520Button%2520toggles%2520badge%2520visiblity%250A%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522badge-btn%2520rounded-5%2520position-relative%2522%2520id%253D%2522badgeBtn%2522%253EToggle%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-content%2520position-absolute%2520sm-badge%2522%253E7%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%253C%252Fp%253E"
+                        style="width: 100%; height: 300px; border: 0; transform: scale(1); overflow: hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <div class="section-change"></div>
+                <h3 class="main-subhead">Icon Badge</h3>
+                <p class="main-desc">To obtain this result, use <i>i</i> tag for icon and <i>span</i> tag with
+                    <i>badge-content</i>,
+                    <i>position-relative</i> and <i>sm-badge</i> class name.
+                </p>
+                <div class="component-showcase rounded-5">
+                    <p class="badge position-relative">
+                        Icon with a badge
+                        <i class="fas fa-home badge-icon"></i>
+                        <span class="badge-content position-absolute sm-badge">20</span>
+                    </p>
+                </div>
+                <div class="component-code-showcase">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2846%2C54%2C62%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=26px&wc=true&wa=true&pv=41px&ph=47px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522badge%2520position-relative%2522%253E%250A%2520%2520%2520%2520%2520%2520Icon%2520with%2520a%2520badge%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-home%2520badge-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-content%2520position-absolute%2520sm-badge%2522%253E20%253C%252Fspan%253E%250A%253C%252Fp%253E"
+                        style="width: 100%; height: 262px; border: 0; transform: scale(1); overflow: hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <div class="section-change"></div>
+                <h3 class="main-subhead">Avatar Badge</h3>
+                <p class="main-desc">To obtain this result, use <i>img</i> tag with <i>badge-avatar</i> class name and
+                    <i>span</i> tag with
+                    <i>badge-content</i>,
+                    <i>position-relative</i> and <i>sm-badge</i> class name.
+                </p>
+                <div class="component-showcase rounded-5">
+                    <p class="badge position-relative">
+                        Avatar with a badge
+                        <img src="../../assets/badge/man-avatar.jpg" alt="avatar" class="badge-avatar">
+                        <span class="badge-content position-absolute sm-badge">20</span>
+                    </p>
+                </div>
+                <div class="component-code-showcase">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2846%2C54%2C62%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=26px&wc=true&wa=true&pv=41px&ph=47px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522badge%2520position-relative%2522%253E%250A%2520%2520%2520%2520%2520%2520Avatar%2520with%2520a%2520badge%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Fbadge%252Fman-avatar.jpg%2522%2520alt%253D%2522avatar%2522%2520class%253D%2522badge-avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-content%2520position-absolute%2520sm-badge%2522%253E20%253C%252Fspan%253E%250A%253C%252Fp%253E"
+                        style="width: 100%; height: 280px; border: 0; transform: scale(1); overflow: hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <div class="pagination">
+                    <a href="./avatar.html" class="pagination-link"><i class="fas fa-arrow-circle-left"></i> Avatar</a>
+                    <a href="./alert.html" class="pagination-link">Alert <i class="fas fa-arrow-circle-right"></i></a>
+                </div>
+            </main>
         </div>
-        </main>
-    </div>
     </div>
 
     <script src="../js/badge.js"></script>

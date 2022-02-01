@@ -10,6 +10,7 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  color: var(--off-white);
   background-color: var(--default-hover);
   padding: 2rem;
   gap: 2rem;
@@ -18,5 +19,6 @@
 }
 
 .component-code-showcase {
+  width: 100%;
   margin-bottom: 1rem;
 }

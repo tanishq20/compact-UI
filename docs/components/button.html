@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compact UI | Button</title>
+    <script src="https://kit.fontawesome.com/4f4010c8fe.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../stylesheets/main.css">
+    <link rel="stylesheet" href="../../stylesheets/style.css">
+    <link rel="shortcut icon" href="../../assets/logo/favicon.ico">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="nav-left">
+                <a href="../../index.html" class="nav-left-link">
+                    <img src="../../assets/logo/logo.png" alt="logo">
+                    Compact UI
+                </a>
+            </div>
+            <div class="nav-right">
+                <ul>
+                    <li><a href="../../index.html" class="nav-right-link">Home <i class="fas fa-home"></i></a></li>
+                    <li><a href="../introduction.html" class="nav-right-link">Docs <i class="fas fa-file-word"></i></a>
+                    </li>
+                    <li><a href="https://github.com/tanishq20" target="_blank" class="nav-right-link">GitHub <i
+                                class="fab fa-github"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="doc-container">
+            <aside class="sidebar">
+                <div class="sidebar-heading">Getting Started</div>
+                <ul class="sidebar-items">
+                    <li class="sidebar-items-link"><a href="#">Introduction</a></li>
+                    <li class="sidebar-items-link"><a href="#">Installation</a></li>
+                </ul>
+                <div class="sidebar-heading">Components</div>
+                <ul class="sidebar-items">
+                    <li class="sidebar-items-link"><a href="./avatar.html">Avatar</a></li>
+                    <li class="sidebar-items-link"><a href="./badge.html">Badge</a></li>
+                    <li class="sidebar-items-link"><a href="./alert.html">Alert</a></li>
+                    <li class="sidebar-items-link active-state"><a href="./button.html">Button</a></li>
+                    <li class="sidebar-items-link"><a href="#">Card</a></li>
+                    <li class="sidebar-items-link"><a href="#">Image</a></li>
+                    <li class="sidebar-items-link"><a href="#">Input</a></li>
+                </ul>
+                <div class="sidebar-heading">Customization</div>
+                <ul class="sidebar-items">
+                    <li class="sidebar-items-link"><a href="#">Theme</a></li>
+                    <li class="sidebar-items-link"><a href="#">Palette</a></li>
+                    <li class="sidebar-items-link"><a href="#">Typography</a></li>
+                </ul>
+                <div class="sidebar-heading">Overview</div>
+                <ul class="sidebar-items">
+                    <li class="sidebar-items-link"><a href="#">Conclusion</a></li>
+                    <li class="sidebar-items-link"><a href="#">Get involved</a></li>
+                </ul>
+            </aside>
+
+            <main class="main-content">
+                <h1 class="main-head">Button</h1>
+                <p class="main-desc">Buttons allow users to perform an action when triggered. They feature a text label,
+                    a background or a border, and icons.
+                </p>
+                <div class="section-change"></div>
+                <h3 class="main-subhead">Basic button</h3>
+                <p class="main-desc">To obtain this result, use <i>button</i> tag with <i>btn</i> class name and button
+                    type class name such as <i>btn-default</i> |
+                    <i>btn-primary</i> | <i>btn-secondary</i> | <i>btn-success</i> | <i>btn-danger</i> |
+                    <i>btn-warning</i>.
+                </p>
+                <div class="component-showcase rounded-5">
+                    <button class="btn btn-default">Default</button>
+                    <button class="btn btn-primary">Primary</button>
+                    <button class="btn btn-secondary">Secondary</button>
+                    <button class="btn btn-success">Success</button>
+                    <button class="btn btn-danger">Danger</button>
+                    <button class="btn btn-warning">Warning</button>
+                </div>
+                <div class="component-code-showcase">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2846%2C54%2C62%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=26px&wc=true&wa=true&pv=41px&ph=47px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-default%2522%253EDefault%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253ESecondary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-success%2522%253ESuccess%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-danger%2522%253EDanger%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-warning%2522%253EWarning%253C%252Fbutton%253E"
+                        style="width: 100%; height: 280px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <div class="section-change"></div>
+                <h3 class="main-subhead">Outlined button</h3>
+                <p class="main-desc">To obtain this result, use <i>button</i> tag with <i>btn</i> class name and button
+                    type class name such as <i>btn-default-outline</i> |
+                    <i>btn-primary-outline</i> | <i>btn-secondary-outline</i> | <i>btn-success-outline</i> |
+                    <i>btn-danger-outline</i> |
+                    <i>btn-warning-outline</i>.
+                </p>
+                <div class="component-showcase rounded-5">
+                    <button class="btn btn-default-outline">Default</button>
+                    <button class="btn btn-primary-outline">Primary</button>
+                    <button class="btn btn-secondary-outline">Secondary</button>
+                    <button class="btn btn-success-outline">Success</button>
+                    <button class="btn btn-danger-outline">Danger</button>
+                    <button class="btn btn-warning-outline">Warning</button>
+                </div>
+                <div class="component-code-showcase">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2846%2C54%2C62%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=26px&wc=true&wa=true&pv=41px&ph=47px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-default-outline%2522%253EDefault%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary-outline%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-secondary-outline%2522%253ESecondary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-success-outline%2522%253ESuccess%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-danger-outline%2522%253EDanger%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-warning-outline%2522%253EWarning%253C%252Fbutton%253E"
+                        style="width: 100%; height: 280px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <div class="section-change"></div>
+                <h3 class="main-subhead">Buttons with an Icon</h3>
+                <p class="main-desc">To obtain this result, use <i>button</i> tag with <i>btn</i>, <i>btn-primary</i>
+                    and <i>btn-icon</i> class name followed by your icon and <i>btn-icon-size</i> class.
+                </p>
+                <div class="component-showcase rounded-5">
+                    <button class="btn btn-primary btn-icon"><i class="fas fa-shopping-cart btn-icon-size"></i>Add to
+                        cart</button>
+                    <button class="btn btn-primary btn-icon"><i class="fas fa-edit btn-icon-size"></i> Edit</button>
+                    <button class="btn btn-primary btn-icon"><i class="fas fa-trash-alt btn-icon-size"></i>
+                        Delete</button>
+                    <button class="btn btn-primary btn-icon"><i class="fas fa-search btn-icon-size"></i> Search</button>
+                </div>
+                <div class="component-code-showcase">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2846%2C54%2C62%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=26px&wc=true&wa=true&pv=41px&ph=47px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520btn-icon-size%2522%253E%253C%252Fi%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-edit%2520btn-icon-size%2522%253E%253C%252Fi%253E%2520Edit%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-trash-alt%2520btn-icon-size%2522%253E%253C%252Fi%253E%2520Delete%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-search%2520btn-icon-size%2522%253E%253C%252Fi%253E%2520Search%253C%252Fbutton%253E"
+                        style="width: 100%; height: 290px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <div class="section-change"></div>
+                <h3 class="main-subhead">Icon Button</h3>
+                <p class="main-desc">To obtain this result, use <i>button</i> tag with <i>btn</i>, <i>btn-icon</i>
+                    and icon type such as <i>btn-icon-setting</i> | <i>btn-icon-delete</i> | <i>btn-icon-check</i> class
+                    name followed by your icon and <i>btn-icon-size</i> class.
+                </p>
+                <div class="component-showcase rounded-5">
+                    <button class="btn btn-icon-setting btn-icon"><i class="fas fa-cog btn-icon-size"></i></button>
+                    <button class="btn btn-icon-delete btn-icon"><i class="fas fa-trash-alt btn-icon-size"></i></button>
+                    <button class="btn btn-icon-check btn-icon"><i class="fas fa-check btn-icon-size"></i></button>
+                </div>
+                <div class="component-code-showcase">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2846%2C54%2C62%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=26px&wc=true&wa=true&pv=41px&ph=47px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-icon-setting%2520btn-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-cog%2520btn-icon-size%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-icon-delete%2520btn-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-trash-alt%2520btn-icon-size%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-icon-check%2520btn-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-check%2520btn-icon-size%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E"
+                        style="width: 100%; height: 280px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <div class="section-change"></div>
+                <h3 class="main-subhead">Floating Button</h3>
+                <p class="main-desc">To obtain this result, use <i>button</i> tag with <i>btn</i>, <i>btn-primary</i>,
+                    <i>btn-float</i>, <i>btn-icon</i> class name followed by your icon and <i>btn-icon-size</i> class.
+                </p>
+                <div class="component-showcase rounded-5">
+                    <button class="btn btn-primary btn-float btn-icon"><i
+                            class="fas fa-plus btn-icon-size"></i></button>
+                    <button class="btn btn-primary btn-float btn-icon"><i
+                            class="fas fa-edit btn-icon-size"></i></button>
+                    <button class="btn btn-primary btn-float btn-icon"><i
+                            class="fas fa-star btn-icon-size"></i></button>
+                    <button class="btn btn-primary btn-float btn-icon"><i
+                            class="fas fa-heart btn-icon-size"></i></button>
+                    <button class="btn btn-primary btn-float btn-icon"><i
+                            class="fas fa-share btn-icon-size"></i></button>
+                    <button class="btn btn-primary btn-float btn-icon"><i
+                            class="fas fa-microphone btn-icon-size"></i></button>
+                </div>
+                <div class="component-code-showcase">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2846%2C54%2C62%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=26px&wc=true&wa=true&pv=41px&ph=47px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-float%2520btn-icon%2522%253E%253Ci%250A%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522fas%2520fa-plus%2520btn-icon-size%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-float%2520btn-icon%2522%253E%253Ci%250A%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522fas%2520fa-edit%2520btn-icon-size%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-float%2520btn-icon%2522%253E%253Ci%250A%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522fas%2520fa-star%2520btn-icon-size%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-float%2520btn-icon%2522%253E%253Ci%250A%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522fas%2520fa-heart%2520btn-icon-size%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-float%2520btn-icon%2522%253E%253Ci%250A%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522fas%2520fa-share%2520btn-icon-size%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-float%2520btn-icon%2522%253E%253Ci%250A%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522fas%2520fa-microphone%2520btn-icon-size%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E"
+                        style="width: 100%; height: 392px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <div class="section-change"></div>
+                <h3 class="main-subhead">Link Button</h3>
+                <p class="main-desc">To obtain this result, use <i>button</i> tag with <i>btn</i>, <i>btn-link</i> class
+                    name followed by <i>a</i> tag.
+                </p>
+                <div class="component-showcase rounded-5">
+                    <button class="btn btn-link"><a href="#">Link</a></button>
+                </div>
+                <div class="component-code-showcase">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2846%2C54%2C62%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=26px&wc=true&wa=true&pv=41px&ph=47px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-link%2522%253E%253Ca%2520href%253D%2522%2523%2522%253ELink%253C%252Fa%253E%253C%252Fbutton%253E"
+                        style="width: 100%; height: 187px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <div class="pagination">
+                    <a href="./alert.html" class="pagination-link"><i class="fas fa-arrow-circle-left"></i> Alert</a>
+                    <a href="./card.html" class="pagination-link">Card <i class="fas fa-arrow-circle-right"></i></a>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+
+</html>

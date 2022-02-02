@@ -1,5 +1,17 @@
+/* Active state css */
+
 .active-state {
   color: var(--active-hover);
+}
+
+/* Code snippet css */
+
+code {
+  padding: 0.2rem 0.4rem;
+  font-size: 1.6rem;
+  border-radius: 0.5rem;
+  background-color: var(--default-hover);
+  color: var(--active-color);
 }
 
 /* component showcase css */

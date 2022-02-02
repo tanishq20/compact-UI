@@ -8,6 +8,8 @@
   transition: all 0.3s ease-in-out;
 }
 
+/**Basic button**/
+
 .btn-default {
   background-color: var(--default-color);
   border-color: var(--default-hover);
@@ -79,6 +81,8 @@
   border-color: var(--warning-600);
   color: var(--black);
 }
+
+/**Outlined button**/
 
 .btn-default-outline {
   background-color: var(--white);
@@ -152,6 +156,8 @@
   color: var(--black);
 }
 
+/**Icon button**/
+
 .btn-icon {
   display: flex;
   justify-content: center;
@@ -199,11 +205,15 @@
   color: var(--success-600);
 }
 
+/**Floating button**/
+
 .btn-float {
   border-radius: 50%;
   height: 4rem;
   width: 4rem;
 }
+
+/**Link button**/
 
 .btn-link {
   background-color: var(--active-color);

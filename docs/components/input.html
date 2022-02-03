@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compact UI | Input</title>
+    <script src="https://kit.fontawesome.com/4f4010c8fe.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../stylesheets/main.css">
+    <link rel="stylesheet" href="../../stylesheets/style.css">
+    <link rel="shortcut icon" href="../../assets/logo/favicon.ico">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="nav-left">
+                <a href="../../index.html" class="nav-left-link">
+                    <img src="../../assets/logo/logo.png" alt="logo">
+                    Compact UI
+                </a>
+            </div>
+            <div class="nav-right">
+                <ul>
+                    <li><a href="../../index.html" class="nav-right-link">Home <i class="fas fa-home"></i></a></li>
+                    <li><a href="../introduction.html" class="nav-right-link">Docs <i class="fas fa-file-word"></i></a>
+                    </li>
+                    <li><a href="https://github.com/tanishq20" target="_blank" class="nav-right-link">GitHub <i
+                                class="fab fa-github"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="doc-container">
+            <aside class="sidebar">
+                <div class="sidebar-heading">Getting Started</div>
+                <ul class="sidebar-items">
+                    <li class="sidebar-items-link"><a href="#">Introduction</a></li>
+                    <li class="sidebar-items-link"><a href="#">Installation</a></li>
+                </ul>
+                <div class="sidebar-heading">Components</div>
+                <ul class="sidebar-items">
+                    <li class="sidebar-items-link"><a href="./avatar.html">Avatar</a></li>
+                    <li class="sidebar-items-link"><a href="./badge.html">Badge</a></li>
+                    <li class="sidebar-items-link"><a href="./alert.html">Alert</a></li>
+                    <li class="sidebar-items-link"><a href="./button.html">Button</a></li>
+                    <li class="sidebar-items-link"><a href="#">Card</a></li>
+                    <li class="sidebar-items-link"><a href="./image.html">Image</a></li>
+                    <li class="sidebar-items-link active-state"><a href="./input.html">Input</a></li>
+                </ul>
+                <div class="sidebar-heading">Customization</div>
+                <ul class="sidebar-items">
+                    <li class="sidebar-items-link"><a href="#">Theme</a></li>
+                    <li class="sidebar-items-link"><a href="#">Palette</a></li>
+                    <li class="sidebar-items-link"><a href="#">Typography</a></li>
+                </ul>
+                <div class="sidebar-heading">Overview</div>
+                <ul class="sidebar-items">
+                    <li class="sidebar-items-link"><a href="#">Conclusion</a></li>
+                    <li class="sidebar-items-link"><a href="#">Get involved</a></li>
+                </ul>
+            </aside>
+
+            <main class="main-content">
+                <h1 class="main-head">Input</h1>
+                <p class="main-desc">A Form is a group of elements used to collect information from a user. It can
+                    include a combination of text, fields, select lists, data inputs, buttons, and more.
+                </p>
+                <div class="section-change"></div>
+
+                <!-- Input fields -->
+
+                <h3 class="main-subhead">Input fields</h3>
+                <p class="main-desc">To obtain this result, use <code>label</code> and <code>input</code> tag with
+                    <code>input-label</code> and <code>input-filed</code> class name respectively.
+                </p>
+                <div class="component-showcase rounded-5">
+                    <div class="input-container">
+                        <label for="email" class="input-label">Email Address <span
+                                class="required-mark">*</span></label>
+                        <input type="email" id="email" class="input-field" placeholder="xyz@compactui.com" required>
+                    </div>
+                    <div class="input-container">
+                        <label for="password" class="input-label">Password <span class="required-mark">*</span></label>
+                        <input type="password" for="password" class="input-field" required>
+                    </div>
+                    <button class="btn btn-primary">Submit</button>
+                </div>
+                <div class="component-code-showcase">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2846%2C54%2C62%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=26px&wc=true&wa=true&pv=41px&ph=47px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522email%2522%2520class%253D%2522input-label%2522%253EEmail%2520Address%2520%253Cspan%2520class%253D%2522required-mark%2522%253E*%253C%252Fspan%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522email%2522%2520id%253D%2522email%2522%2520class%253D%2522input-field%2522%2520placeholder%253D%2522xyz%2540compactui.com%2522%2520required%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522password%2522%2520class%253D%2522input-label%2522%253EPassword%2520%253Cspan%2520class%253D%2522required-mark%2522%253E*%253C%252Fspan%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522password%2522%2520for%253D%2522password%2522%2520class%253D%2522input-field%2522%2520required%253E%250A%253C%252Fdiv%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253ESubmit%253C%252Fbutton%253E"
+                        style="width: 100%; height: 400px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <div class="section-change"></div>
+
+                <!-- Input fields with error -->
+
+                <h3 class="main-subhead">Input fields with error</h3>
+                <p class="main-desc">To obtain this result, use <code>label</code> and <code>input</code> tag with
+                    <code>input-label</code> and <code>input-filed</code> class name respectively. Add
+                    <code>error</code> class to show
+                    error.
+                </p>
+                <div class="component-showcase rounded-5">
+                    <div class="input-container">
+                        <label for="email" class="input-label">Email Address <span
+                                class="required-mark">*</span></label>
+                        <input type="email" id="email" class="input-field" placeholder="xyz@compactui.com" required>
+                    </div>
+                    <div class="input-container error">
+                        <label for="password" class="input-label">Password <span class="required-mark">*</span></label>
+                        <input type="password" for="password" class="input-field" required>
+                        <span class="error-msg">Incorrect Password. Please try again.</span>
+                    </div>
+                    <button class="btn btn-primary">Submit</button>
+                </div>
+                <div class="component-code-showcase">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2846%2C54%2C62%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=26px&wc=true&wa=true&pv=41px&ph=47px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522email%2522%2520class%253D%2522input-label%2522%253EEmail%2520Address%2520%253Cspan%2520class%253D%2522required-mark%2522%253E*%253C%252Fspan%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522email%2522%2520id%253D%2522email%2522%2520class%253D%2522input-field%2522%2520placeholder%253D%2522xyz%2540compactui.com%2522%2520required%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522input-container%2520error%2522%253E%250A%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522password%2522%2520class%253D%2522input-label%2522%253EPassword%2520%253Cspan%2520class%253D%2522required-mark%2522%253E*%253C%252Fspan%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522password%2522%2520for%253D%2522password%2522%2520class%253D%2522input-field%2522%2520required%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522error-msg%2522%253EIncorrect%2520Password.%2520Please%2520try%2520again.%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253ESubmit%253C%252Fbutton%253E"
+                        style="width: 100%; height: 420px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                    </iframe>
+                </div>
+                <div class="section-change"></div>
+
+                <!-- Textarea -->
+
+                <h3 class="main-subhead">Textarea</h3>
+                <p class="main-desc">To obtain this result, use <code>label</code> and <code>textarea</code> tag with
+                    <code>input-label</code> and <code>input-filed</code> class name respectively.
+                </p>
+                <div class="component-showcase rounded-5">
+                    <div class="input-container">
+                        <label for="textarea" class="input-label">Textarea</label>
+                        <textarea type="textarea" placeholder="What's happening?" class="input-field"
+                            rows="4"></textarea>
+                    </div>
+                    <button class="btn btn-primary">Tweet</button>
+                </div>
+                <div class="component-code-showcase">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2846%2C54%2C62%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=26px&wc=true&wa=true&pv=41px&ph=47px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522textarea%2522%2520class%253D%2522input-label%2522%253ETextarea%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%253Ctextarea%2520type%253D%2522textarea%2522%2520placeholder%253D%2522What%27s%2520happening%253F%2522%2520class%253D%2522input-field%2520textarea%2522%2520rows%253D%25224%2522%253E%253C%252Ftextarea%253E%250A%253C%252Fdiv%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253ETweet%253C%252Fbutton%253E"
+                        style="width: 100%; height: 280px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <div class="pagination">
+                    <a href="./image.html" class="pagination-link"><i class="fas fa-arrow-circle-left"></i> Image</a>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+
+</html>

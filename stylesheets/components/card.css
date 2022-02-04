@@ -31,8 +31,9 @@
   font-weight: 600;
 }
 
-.card-btn {
-  padding: 5px;
+.card-btn-primary,
+.card-btn-secondary {
+  padding: 5px 10px;
   transition: all 0.3s ease-in-out;
 }
 
@@ -49,10 +50,6 @@
   background-color: var(--secondary-color);
 }
 
-.card-shadow {
-  box-shadow: 0 0 10px rgb(255 255 255 / 60%);
-}
-
 .card-footer {
   display: flex;
   justify-content: space-between;
@@ -66,6 +63,7 @@
   justify-content: flex-start;
   gap: 1rem;
   flex-basis: 60%;
+  transition: all 0.3s ease-in-out;
 }
 
 .card-footer-btns a {
@@ -77,13 +75,22 @@
 .card-footer-links {
   display: flex;
   justify-content: flex-end;
-  gap: 1rem;
+  gap: 1.5rem;
   flex-grow: 1;
 }
 
 .card-footer-links i {
   color: var(--blueGrey-500);
   font-size: 1.6rem;
+}
+
+.card-icon {
+  padding: 10px 0px;
+  transition: all 0.3s ease-in-out;
+}
+
+.card-shadow {
+  box-shadow: 0 0 10px rgb(255 255 255 / 60%);
 }
 
 .card-horizontal {

@@ -1,0 +1,151 @@
+.card-container {
+  background-color: var(--white);
+  max-width: 30rem;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-header,
+.card-body {
+  padding: 1.25rem;
+}
+
+.card-header h2 {
+  font-size: 1.8rem;
+  color: var(--default-hover);
+  font-weight: 700;
+}
+
+.card-header span {
+  font-size: 1.2rem;
+  color: var(--black-500);
+  font-weight: 600;
+}
+
+.card-body p {
+  font-size: 1.6rem;
+  color: var(--secondary-color);
+  font-weight: 600;
+}
+
+.card-btn {
+  padding: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.card-btn-primary {
+  background-color: var(--black);
+}
+
+.card-btn-secondary {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.card-btn-primary:hover,
+.card-btn-secondary:hover {
+  background-color: var(--secondary-color);
+}
+
+.card-shadow {
+  box-shadow: 0 0 10px rgb(255 255 255 / 60%);
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1.6rem;
+}
+
+.card-footer-btns {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+  flex-basis: 60%;
+}
+
+.card-footer-btns a {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.card-footer-links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  flex-grow: 1;
+}
+
+.card-footer-links i {
+  color: var(--blueGrey-500);
+  font-size: 1.6rem;
+}
+
+.card-horizontal {
+  flex-direction: row;
+}
+
+.card-horizontal .card-image {
+  max-width: 10.8rem;
+}
+
+.card-horizontal .card-image img {
+  height: 10.8rem;
+}
+
+.card-overlap,
+.card-dismiss {
+  position: relative;
+}
+
+.card-overlap .card-header {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.card-overlap .card-header h2 {
+  color: var(--white);
+}
+
+.card-badge {
+  position: relative;
+}
+
+.card-badge-item {
+  position: absolute;
+  background-color: var(--black);
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  top: 2rem;
+  left: -5px;
+}
+
+.dismiss-btn {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  color: var(--black-500);
+  position: absolute;
+  top: 5px;
+  right: 8px;
+}
+
+.dismiss-btn:hover {
+  color: var(--black);
+}
+
+.dismiss-btn-icon {
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  font-weight: 500;
+}

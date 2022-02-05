@@ -166,8 +166,8 @@ body {
   align-items: center;
   gap: 1rem;
   font-size: 1.8rem;
-  font-weight: 600;
-  color: var(--black);
+  font-weight: 500;
+  color: var(--text-color);
   transition: all 0.3s ease-in-out;
 }
 

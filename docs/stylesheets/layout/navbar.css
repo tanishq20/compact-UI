@@ -23,10 +23,6 @@
   transition: all 0.3s ease-in-out;
 }
 
-.nav-left-link:hover {
-  color: var(--white-hover);
-}
-
 .nav-right {
   margin-left: auto;
 }
@@ -48,6 +44,7 @@
   font-size: 1.8rem;
 }
 
+.nav-left-link:hover,
 .nav-right-link:hover {
-  color: var(--white-hover);
+  color: var(--text-color);
 }

@@ -2,6 +2,7 @@
 
 .active-state {
   color: var(--active-hover);
+  background-color: var(--secondary-color);
 }
 
 /* Code snippet css */

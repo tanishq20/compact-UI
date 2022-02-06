@@ -28,21 +28,15 @@ stackedClose.addEventListener('click', closeStacked)
 // Show clicked snackbar
 function showLeading() {
   leadingClass.classList.remove('hidden')
-  setTimeout(() => {
-    leadingClass.classList.add('hidden')
-  }, 3000)
+  setTimeout(() => leadingClass.classList.add('hidden'), 3000)
 }
 function showBasline() {
   baslineClass.classList.remove('hidden')
-  setTimeout(() => {
-    baslineClass.classList.add('hidden')
-  }, 3000)
+  setTimeout(() => baslineClass.classList.add('hidden'), 3000)
 }
 function showStacked() {
   stackedClass.classList.remove('hidden')
-  setTimeout(() => {
-    stackedClass.classList.add('hidden')
-  }, 3000)
+  setTimeout(() => stackedClass.classList.add('hidden'), 3000)
 }
 
 // Close clicked snackbar

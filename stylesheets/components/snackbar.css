@@ -42,6 +42,7 @@
 }
 
 .snackbar-action-item {
+  cursor: pointer;
   font-size: 1.6rem;
   font-weight: 600;
   color: var(--primary-color);
@@ -57,6 +58,6 @@
 }
 
 .snackbar-action-item i:hover {
-  background-color: rgb(0, 0, 0, 0.1);
+  background-color: var(--black-hover);
   border-radius: 50%;
 }

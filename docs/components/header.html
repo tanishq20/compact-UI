@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compact UI | Header</title>
+    <script src="https://kit.fontawesome.com/4f4010c8fe.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../stylesheets/main.css">
+    <link rel="stylesheet" href="../../stylesheets/style.css">
+    <link rel="shortcut icon" href="../../assets/logo/favicon.ico">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="nav-left">
+                <a href="../../index.html" class="nav-left-link">
+                    <img src="../../assets/logo/logo.png" alt="logo">
+                    Compact UI
+                </a>
+            </div>
+            <div class="nav-right">
+                <ul>
+                    <li><a href="../../index.html" class="nav-right-link">Home <i class="fas fa-home"></i></a></li>
+                    <li><a href="../introduction.html" class="nav-right-link">Docs <i class="fas fa-file-word"></i></a>
+                    </li>
+                    <li><a href="https://github.com/tanishq20" target="_blank" class="nav-right-link">GitHub <i
+                                class="fab fa-github"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="doc-container">
+            <aside class="sidebar">
+                <div class="sidebar-heading">Getting Started</div>
+                <ul class="sidebar-items">
+                    <li class="sidebar-items-link"><a href="../introduction.html">Introduction</a></li>
+                    <li class="sidebar-items-link"><a href="../installation.html">Installation</a></li>
+                </ul>
+                <div class="sidebar-heading">Components</div>
+                <ul class="sidebar-items">
+                    <li class="sidebar-items-link"><a href="./avatar.html">Avatar</a></li>
+                    <li class="sidebar-items-link"><a href="./badge.html">Badge</a></li>
+                    <li class="sidebar-items-link"><a href="./alert.html">Alert</a></li>
+                    <li class="sidebar-items-link"><a href="./button.html">Button</a></li>
+                    <li class="sidebar-items-link"><a href="./card.html">Card</a></li>
+                    <li class="sidebar-items-link"><a href="./image.html">Image</a></li>
+                    <li class="sidebar-items-link"><a href="./input.html">Input</a></li>
+                    <li class="sidebar-items-link"><a href="./snackbar.html">Snackbar</a></li>
+                    <li class="sidebar-items-link"><a href="./rating.html">Rating</a></li>
+                    <li class="sidebar-items-link active-state"><a href="./header.html">Header</a></li>
+                </ul>
+                <div class="sidebar-heading">Customization</div>
+                <ul class="sidebar-items">
+                    <li class="sidebar-items-link"><a href="#">Theme</a></li>
+                    <li class="sidebar-items-link"><a href="#">Palette</a></li>
+                    <li class="sidebar-items-link"><a href="#">Typography</a></li>
+                </ul>
+                <div class="sidebar-heading">Overview</div>
+                <ul class="sidebar-items">
+                    <li class="sidebar-items-link"><a href="#">Conclusion</a></li>
+                    <li class="sidebar-items-link"><a href="#">Get involved</a></li>
+                </ul>
+            </aside>
+
+            <main class="main-content">
+                <h1 class="main-head">Header</h1>
+                <p class="main-desc">Navigation consists of a menu and utility section meant to help a user orient
+                    themselves and move through the website. It’s persistent on every page to ensure a consistent
+                    experience across websites.
+                </p>
+                <div class="section-change"></div>
+
+                <!-- Standard Header -->
+
+                <h3 class="main-subhead">Standard Header</h3>
+                <p class="main-desc">To obtain this result, use <code>header</code> tag with
+                    <code>header-container</code>, <code>header-brand</code>, <code>header-toggle</code>,
+                    <code>header-logo</code>, <code>header-nav</code>, <code>header-list</code>,
+                    <code>header-item</code> and <code>header-link</code> class
+                    name.
+                </p>
+                <div class="component-showcase rounded-5">
+                    <header class="header-container">
+                        <div class="header-brand">
+                            <a href="#" class="header-toggle"><i class="fas fa-bars"></i></a>
+                            <a href="#" class="header-logo">Standard</a>
+                        </div>
+                        <nav class="header-nav">
+                            <ul class="header-list">
+                                <li class="header-item">
+                                    <a href="#" class="header-link"><i class="fas fa-download"></i></a>
+                                </li>
+                                <li class="header-item">
+                                    <a href="#" class="header-link"><i class="fas fa-share"></i></a>
+                                </li>
+                                <li class="header-item">
+                                    <a href="#" class="header-link"><i class="fas fa-bookmark"></i></a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </header>
+                </div>
+                <div class="component-code-showcase">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2846%2C54%2C62%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=26px&wc=true&wa=true&pv=41px&ph=47px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cheader%2520class%253D%2522header-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522header-brand%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522header-toggle%2522%253E%253Ci%2520class%253D%2522fas%2520fa-bars%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522header-logo%2522%253EStandard%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cnav%2520class%253D%2522header-nav%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522header-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522header-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522header-link%2522%253E%253Ci%2520class%253D%2522fas%2520fa-download%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522header-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522header-link%2522%253E%253Ci%2520class%253D%2522fas%2520fa-share%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522header-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522header-link%2522%253E%253Ci%2520class%253D%2522fas%2520fa-bookmark%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fnav%253E%250A%253C%252Fheader%253E"
+                        style="width: 100%; height: 580px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <div class="section-change"></div>
+
+                <!-- Dense Header -->
+
+                <h3 class="main-subhead">Dense Header</h3>
+                <p class="main-desc">To obtain this result, use <code>header</code> tag with
+                    <code>header-container</code>, <code>header-brand</code>, <code>header-toggle</code>,
+                    <code>header-logo</code>, <code>header-nav</code>, <code>header-list</code>,
+                    <code>header-item</code> and <code>header-link</code> class
+                    name. Add additional <code>dense-header</code> class name.
+                </p>
+                <div class="component-showcase rounded-5">
+                    <header class="dense-header header-container">
+                        <div class="header-brand">
+                            <a href="#" class="header-toggle"><i class="fas fa-bars"></i></a>
+                            <a href="#" class="header-logo">Dense</a>
+                        </div>
+                        <nav class="header-nav">
+                            <ul class="header-list">
+                                <li class="header-item">
+                                    <a href="#" class="header-link"><i class="fas fa-download"></i></a>
+                                </li>
+                                <li class="header-item">
+                                    <a href="#" class="header-link"><i class="fas fa-share"></i></a>
+                                </li>
+                                <li class="header-item">
+                                    <a href="#" class="header-link"><i class="fas fa-bookmark"></i></a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </header>
+                </div>
+                <div class="component-code-showcase">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2846%2C54%2C62%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=26px&wc=true&wa=true&pv=41px&ph=47px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cheader%2520class%253D%2522dense-header%2520header-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522header-brand%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522header-toggle%2522%253E%253Ci%2520class%253D%2522fas%2520fa-bars%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522header-logo%2522%253EDense%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cnav%2520class%253D%2522header-nav%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522header-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522header-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522header-link%2522%253E%253Ci%2520class%253D%2522fas%2520fa-download%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522header-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522header-link%2522%253E%253Ci%2520class%253D%2522fas%2520fa-share%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522header-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522header-link%2522%253E%253Ci%2520class%253D%2522fas%2520fa-bookmark%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fnav%253E%250A%253C%252Fheader%253E"
+                        style="width: 100%; height: 580px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <div class="section-change"></div>
+
+                <!-- Prominent Header -->
+
+                <h3 class="main-subhead">Prominent Header</h3>
+                <p class="main-desc">To obtain this result, use <code>header</code> tag with
+                    <code>header-container</code>, <code>header-brand</code>, <code>header-toggle</code>,
+                    <code>header-logo</code>, <code>header-nav</code>, <code>header-list</code>,
+                    <code>header-item</code> and <code>header-link</code> class
+                    name. Add additional <code>prominent-header</code> class name.
+                </p>
+                <div class="component-showcase rounded-5">
+                    <header class="header-container">
+                        <div class="prominent-header header-brand">
+                            <a href="#" class="header-toggle"><i class="fas fa-bars"></i></a>
+                            <a href="#" class="header-logo">Prominent</a>
+                        </div>
+                        <nav class="header-nav">
+                            <ul class="header-list">
+                                <li class="header-item">
+                                    <a href="#" class="header-link"><i class="fas fa-download"></i></a>
+                                </li>
+                                <li class="header-item">
+                                    <a href="#" class="header-link"><i class="fas fa-share"></i></a>
+                                </li>
+                                <li class="header-item">
+                                    <a href="#" class="header-link"><i class="fas fa-bookmark"></i></a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </header>
+                </div>
+                <div class="component-code-showcase">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2846%2C54%2C62%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=26px&wc=true&wa=true&pv=41px&ph=47px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cheader%2520class%253D%2522header-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522prominent-header%2520header-brand%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522header-toggle%2522%253E%253Ci%2520class%253D%2522fas%2520fa-bars%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522header-logo%2522%253EProminent%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cnav%2520class%253D%2522header-nav%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522header-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522header-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522header-link%2522%253E%253Ci%2520class%253D%2522fas%2520fa-download%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522header-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522header-link%2522%253E%253Ci%2520class%253D%2522fas%2520fa-share%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522header-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522header-link%2522%253E%253Ci%2520class%253D%2522fas%2520fa-bookmark%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fnav%253E%250A%253C%252Fheader%253E"
+                        style="width: 100%; height: 580px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <div class="section-change"></div>
+
+                <!-- Collapsed Header -->
+
+                <h3 class="main-subhead">Collapsed Header</h3>
+                <p class="main-desc">To obtain this result, use <code>header</code> tag with
+                    <code>header-container</code>, <code>header-brand</code>, <code>header-toggle</code>,
+                    <code>header-logo</code>, <code>header-nav</code>, <code>header-list</code>,
+                    <code>header-item</code> and <code>header-link</code> class
+                    name. Add additional <code>collapsed-header</code> class name.
+                </p>
+                <div class="component-showcase rounded-5">
+                    <header class="collapsed-header header-container">
+                        <div class="header-brand">
+                            <div class="header-toggle"><i class="fas fa-bars"></i></div>
+                        </div>
+                        <nav class="header-nav">
+                            <ul class="header-list">
+                                <li class="header-item">
+                                    <a href="#" class="header-link"><i class="fas fa-download"></i></a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </header>
+                </div>
+                <div class="component-code-showcase">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2846%2C54%2C62%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=26px&wc=true&wa=true&pv=41px&ph=47px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cheader%2520class%253D%2522collapsed-header%2520header-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522header-brand%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522header-toggle%2522%253E%253Ci%2520class%253D%2522fas%2520fa-bars%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cnav%2520class%253D%2522header-nav%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522header-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522header-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522header-link%2522%253E%253Ci%2520class%253D%2522fas%2520fa-download%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fnav%253E%250A%253C%252Fheader%253E"
+                        style="width: 100%; height: 392px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <div class="section-change"></div>
+
+                <div class="pagination">
+                    <a href="./rating.html" class="pagination-link"><i class="fas fa-arrow-circle-left"></i>
+                        Rating</a>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+
+</html>

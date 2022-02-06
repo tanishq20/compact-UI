@@ -94,17 +94,21 @@ body {
 }
 
 .sidebar-items-link {
-  margin: 20px 0;
+  cursor: pointer;
+  margin: 10px 0;
+  padding: 1rem;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.sidebar-items-link:hover {
+  color: var(--active-color);
+  background-color: var(--secondary-400);
 }
 
 .sidebar-items-link a {
   font-size: 1.8rem;
   font-weight: 400;
-  transition: all 0.3s ease-in-out;
-}
-
-.sidebar-items-link a:hover {
-  color: var(--active-color);
 }
 
 /* main-content */

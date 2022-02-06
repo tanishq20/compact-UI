@@ -1,0 +1,83 @@
+.header-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: var(--indigo-500);
+  color: var(--white);
+  padding: 1rem;
+  width: 100%;
+}
+
+.header-brand {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-toggle {
+  display: flex;
+  align-items: center;
+  align-self: flex-start;
+  justify-content: center;
+  font-size: 3.2rem;
+  cursor: pointer;
+  height: 3rem;
+  width: 3rem;
+  padding: 3rem;
+}
+
+.header-logo {
+  font-size: 2.4rem;
+}
+
+.header-nav {
+  margin-left: auto;
+  align-self: flex-start;
+}
+
+.header-list {
+  display: flex;
+  gap: 1rem;
+}
+
+.header-item {
+  list-style: none;
+}
+
+.header-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  font-size: 3.2rem;
+  height: 3rem;
+  width: 3rem;
+  padding: 3rem;
+}
+
+.header-toggle:hover,
+.header-link:hover {
+  background-color: var(--black-hover);
+  border-radius: 50%;
+}
+
+.fixed-header {
+  position: sticky;
+  top: 0;
+}
+
+.dense-header {
+  padding: 0;
+}
+
+.prominent-header .header-logo {
+  margin-top: 10rem;
+}
+
+.collapsed-header {
+  max-width: 15rem;
+  border-bottom-right-radius: 3rem;
+  position: sticky;
+  top: 0;
+}

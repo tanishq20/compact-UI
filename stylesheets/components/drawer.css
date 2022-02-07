@@ -1,0 +1,103 @@
+.drawer-container {
+  background-color: var(--white);
+  width: 25.6rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  height: 100%;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.drawer-header {
+  flex-shrink: 0;
+  min-height: 6.4rem;
+  padding: 10px;
+}
+
+.drawer-title {
+  color: var(--secondary-color);
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.drawer-subtitle {
+  color: var(--blueGrey-500);
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+.drawer-list {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 90%;
+  font-weight: 600;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.drawer-list hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.drawer-list-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  color: var(--black);
+  font-size: 1.6rem;
+  gap: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.drawer-list-item i {
+  font-size: 1.6rem;
+}
+
+.drawer-list-item:hover {
+  background-color: var(--grey);
+}
+
+.drawer-list-item:focus {
+  background-color: var(--indigo-500);
+  color: var(--white);
+}
+
+.reverse {
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+/* Permanent drawer */
+
+.permanent-drawer {
+  display: flex;
+  height: 100vh;
+}
+
+.permanent-drawer-right-container {
+  background-color: var(--white);
+  overflow: auto;
+  height: 100%;
+}
+
+.permanent-drawer-right-container-header {
+  color: var(--white);
+  background-color: var(--indigo-500);
+  padding: 2rem;
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.permanent-drawer-right-container-content {
+  color: var(--black-500);
+  padding: 10px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 2rem;
+}

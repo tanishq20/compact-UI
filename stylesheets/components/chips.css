@@ -1,0 +1,77 @@
+.chips-container {
+  background-color: var(--off-white);
+  padding: 2rem;
+  width: max(80%, 25rem);
+}
+
+.chips-header {
+  color: var(--secondary-color);
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.chips-body {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+}
+
+.chips-list {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  background-color: var(--default-color);
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+.chips-delete-icon {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  height: 2rem;
+  width: 2rem;
+  color: var(--grey);
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+}
+
+.chips-delete-icon:hover {
+  color: var(--off-white);
+  background-color: var(--secondary-hover);
+}
+
+.chips-input {
+  flex-grow: 1;
+  cursor: text;
+  height: 4rem;
+  padding: 1rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  border-radius: 2rem;
+  background-color: var(--grey-200);
+  color: var(--black-500);
+  border: 1px solid var(--grey);
+  transition: 0.3s all ease;
+}
+
+.chips-input:focus {
+  color: var(--black);
+  outline: transparent;
+}
+
+.stacked-chips {
+  max-width: 25rem;
+}
+
+.stacked-chips .chips-body {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}

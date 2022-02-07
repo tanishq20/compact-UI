@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compact UI | Drawer</title>
+    <script src="https://kit.fontawesome.com/4f4010c8fe.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../stylesheets/main.css">
+    <link rel="stylesheet" href="../../stylesheets/style.css">
+    <link rel="shortcut icon" href="../../assets/logo/favicon.ico">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="nav-left">
+                <a href="../../index.html" class="nav-left-link">
+                    <img src="../../assets/logo/logo.png" alt="logo">
+                    Compact UI
+                </a>
+            </div>
+            <div class="nav-right">
+                <ul>
+                    <li><a href="../../index.html" class="nav-right-link">Home <i class="fas fa-home"></i></a></li>
+                    <li><a href="../introduction.html" class="nav-right-link">Docs <i class="fas fa-file-word"></i></a>
+                    </li>
+                    <li><a href="https://github.com/tanishq20" target="_blank" class="nav-right-link">GitHub <i
+                                class="fab fa-github"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="doc-container">
+            <aside class="sidebar">
+                <div class="sidebar-heading">Getting Started</div>
+                <ul class="sidebar-items">
+                    <li class="sidebar-items-link"><a href="../introduction.html">Introduction</a></li>
+                    <li class="sidebar-items-link"><a href="../installation.html">Installation</a></li>
+                </ul>
+                <div class="sidebar-heading">Components</div>
+                <ul class="sidebar-items">
+                    <li class="sidebar-items-link"><a href="./avatar.html">Avatar</a></li>
+                    <li class="sidebar-items-link"><a href="./badge.html">Badge</a></li>
+                    <li class="sidebar-items-link"><a href="./alert.html">Alert</a></li>
+                    <li class="sidebar-items-link"><a href="./button.html">Button</a></li>
+                    <li class="sidebar-items-link"><a href="./card.html">Card</a></li>
+                    <li class="sidebar-items-link"><a href="./image.html">Image</a></li>
+                    <li class="sidebar-items-link"><a href="./input.html">Input</a></li>
+                    <li class="sidebar-items-link"><a href="./snackbar.html">Snackbar</a></li>
+                    <li class="sidebar-items-link"><a href="./rating.html">Rating</a></li>
+                    <li class="sidebar-items-link"><a href="./header.html">Header</a></li>
+                    <li class="sidebar-items-link"><a href="./modal.html">Modal</a></li>
+                    <li class="sidebar-items-link"><a href="./chips.html">Chips</a></li>
+                    <li class="sidebar-items-link active-state"><a href="./drawer.html">Drawer</a></li>
+                </ul>
+                <div class="sidebar-heading">Customization</div>
+                <ul class="sidebar-items">
+                    <li class="sidebar-items-link"><a href="#">Theme</a></li>
+                    <li class="sidebar-items-link"><a href="#">Palette</a></li>
+                    <li class="sidebar-items-link"><a href="#">Typography</a></li>
+                </ul>
+                <div class="sidebar-heading">Overview</div>
+                <ul class="sidebar-items">
+                    <li class="sidebar-items-link"><a href="#">Conclusion</a></li>
+                    <li class="sidebar-items-link"><a href="#">Get involved</a></li>
+                </ul>
+            </aside>
+
+            <main class="main-content">
+                <h1 class="main-head">Drawer</h1>
+                <p class="main-desc">Navigation drawers provide access to destinations in your app. Side sheets are
+                    surfaces containing supplementary content that are anchored to the left or right edge of the screen.
+                </p>
+                <div class="section-change"></div>
+
+                <!-- Drawer component -->
+
+                <h3 class="main-subhead">Drawer component</h3>
+                <p class="main-desc">To obtain this result, use <code>div</code> tag with
+                    <code>drawer-container</code>, <code>drawer-header</code>, <code>drawer-title</code>,
+                    <code>drawer-subtitle</code>, <code>drawer-list</code> and <code>drawer-list-item</code>
+                    class
+                    name. Add <code>reverse</code> class name to reverse row items.
+                </p>
+                <div class="component-showcase rounded-5">
+                    <div class="drawer-container rounded-5">
+                        <div class="drawer-header">
+                            <h3 class="drawer-title">Title</h3>
+                            <h6 class="drawer-subtitle">subtext</h6>
+                        </div>
+                        <div class="drawer-list">
+                            <a href="#" class="drawer-list-item"><i class="fas fa-inbox"></i> Inbox</a>
+                            <a href="#" class="drawer-list-item"><i class="fas fa-star"></i> Star</a>
+                            <a href="#" class="drawer-list-item"><i class="fas fa-paper-plane"></i> Sent Mail</a>
+                            <a href="#" class="drawer-list-item"><i class="far fa-envelope-open"></i> Drafts</a>
+                        </div>
+                    </div>
+                    <div class="drawer-container rounded-5">
+                        <div class="drawer-header">
+                            <h3 class="drawer-title">Title</h3>
+                            <h6 class="drawer-subtitle">subtext</h6>
+                        </div>
+                        <div class="drawer-list">
+                            <a href="#" class="drawer-list-item reverse"><i class="fas fa-inbox"></i> Inbox</a>
+                            <a href="#" class="drawer-list-item reverse"><i class="fas fa-star"></i> Star</a>
+                            <a href="#" class="drawer-list-item reverse"><i class="fas fa-paper-plane"></i> Sent
+                                Mail</a>
+                            <a href="#" class="drawer-list-item reverse"><i class="far fa-envelope-open"></i> Drafts</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="component-code-showcase">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2846%2C54%2C62%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=26px&wc=true&wa=true&pv=41px&ph=47px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522drawer-container%2520rounded-5%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522drawer-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522drawer-title%2522%253ETitle%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%2520class%253D%2522drawer-subtitle%2522%253Esubtext%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522drawer-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522drawer-list-item%2522%253E%253Ci%2520class%253D%2522fas%2520fa-inbox%2522%253E%253C%252Fi%253E%2520Inbox%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522drawer-list-item%2522%253E%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%2520Star%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522drawer-list-item%2522%253E%253Ci%2520class%253D%2522fas%2520fa-paper-plane%2522%253E%253C%252Fi%253E%2520Sent%2520Mail%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522drawer-list-item%2522%253E%253Ci%2520class%253D%2522far%2520fa-envelope-open%2522%253E%253C%252Fi%253E%2520Drafts%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 100%; height: 450px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2846%2C54%2C62%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=26px&wc=true&wa=true&pv=41px&ph=47px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522drawer-container%2520rounded-5%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522drawer-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522drawer-title%2522%253ETitle%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%2520class%253D%2522drawer-subtitle%2522%253Esubtext%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522drawer-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522drawer-list-item%2520reverse%2522%253E%253Ci%2520class%253D%2522fas%2520fa-inbox%2522%253E%253C%252Fi%253E%2520Inbox%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522drawer-list-item%2520reverse%2522%253E%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%2520Star%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522drawer-list-item%2520reverse%2522%253E%253Ci%2520class%253D%2522fas%2520fa-paper-plane%2522%253E%253C%252Fi%253E%2520Sent%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Mail%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522drawer-list-item%2520reverse%2522%253E%253Ci%2520class%253D%2522far%2520fa-envelope-open%2522%253E%253C%252Fi%253E%2520Drafts%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 100%; height: 450px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <div class="section-change"></div>
+
+                <!-- Permanent Drawer -->
+
+                <h3 class="main-subhead">Permanent Drawer</h3>
+                <p class="main-desc">To obtain this result, use <code>div</code> tag with
+                    <code>drawer-container</code>, <code>drawer-header</code>, <code>drawer-title</code>,
+                    <code>drawer-subtitle</code>, <code>drawer-list</code> and <code>drawer-list-item</code>
+                    class
+                    name. Add additional <code>permanent-drawer</code> and <code>permanent-drawer-right-container</code>
+                    class name for permanent drawer.
+                </p>
+                <div class="component-showcase rounded-5">
+                    <div class="permanent-drawer">
+                        <aside class="drawer-container">
+                            <div class="drawer-header">
+                                <h3 class="drawer-title">Mail</h3>
+                                <h6 class="drawer-subtitle">email@compact.ui</h6>
+                            </div>
+                            <div class="drawer-list">
+                                <a href="#" class="drawer-list-item"><i class="fas fa-inbox"></i> Inbox</a>
+                                <a href="#" class="drawer-list-item"><i class="fas fa-star"></i> Star</a>
+                                <a href="#" class="drawer-list-item"><i class="fas fa-paper-plane"></i> Sent Mail</a>
+                                <a href="#" class="drawer-list-item"><i class="far fa-envelope-open"></i> Drafts</a>
+                                <hr>
+                                <h4 class="drawer-subtitle">Labels</h4>
+                                <a href="#" class="drawer-list-item"><i class="fas fa-bookmark"></i>Family</a>
+                                <a href="#" class="drawer-list-item"><i class="fas fa-bookmark"></i>Friends</a>
+                                <a href="#" class="drawer-list-item"><i class="fas fa-bookmark"></i>Work</a>
+                                <hr>
+                                <a href="#" class="drawer-list-item"><i class="fas fa-cog"></i>Settings</a>
+                                <a href="#" class="drawer-list-item"><i class="fas fa-headset"></i>Help & feedback</a>
+                                <hr>
+                                <a href="#" class="drawer-list-item reverse"><i class="fas fa-inbox"></i> Inbox</a>
+                                <a href="#" class="drawer-list-item reverse"><i class="fas fa-star"></i> Star</a>
+                                <a href="#" class="drawer-list-item reverse"><i class="fas fa-paper-plane"></i> Sent
+                                    Mail</a>
+                                <a href="#" class="drawer-list-item reverse"><i class="far fa-envelope-open"></i>
+                                    Drafts</a>
+                            </div>
+                        </aside>
+                        <div class="permanent-drawer-right-container">
+                            <h1 class="permanent-drawer-right-container-header">Permanent Drawer</h1>
+                            <p class="permanent-drawer-right-container-content">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Modi, reiciendis consectetur obcaecati delectus sed harum deserunt
+                                aliquam animi earum! Harum laudantium architecto ipsam earum corporis incidunt soluta
+                                fuga placeat hic.</p>
+                            <p class="permanent-drawer-right-container-content">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Modi, reiciendis consectetur obcaecati delectus sed harum deserunt
+                                aliquam animi earum! Harum laudantium architecto ipsam earum corporis incidunt soluta
+                                fuga placeat hic.</p>
+                            <p class="permanent-drawer-right-container-content">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Modi, reiciendis consectetur obcaecati delectus sed harum deserunt
+                                aliquam animi earum! Harum laudantium architecto ipsam earum corporis incidunt soluta
+                                fuga placeat hic.</p>
+                            <p class="permanent-drawer-right-container-content">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Modi, reiciendis consectetur obcaecati delectus sed harum deserunt
+                                aliquam animi earum! Harum laudantium architecto ipsam earum corporis incidunt soluta
+                                fuga placeat hic.</p>
+                            <p class="permanent-drawer-right-container-content">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Modi, reiciendis consectetur obcaecati delectus sed harum deserunt
+                                aliquam animi earum! Harum laudantium architecto ipsam earum corporis incidunt soluta
+                                fuga placeat hic.</p>
+                            <p class="permanent-drawer-right-container-content">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Modi, reiciendis consectetur obcaecati delectus sed harum deserunt
+                                aliquam animi earum! Harum laudantium architecto ipsam earum corporis incidunt soluta
+                                fuga placeat hic.</p>
+                            <p class="permanent-drawer-right-container-content">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Modi, reiciendis consectetur obcaecati delectus sed harum deserunt
+                                aliquam animi earum! Harum laudantium architecto ipsam earum corporis incidunt soluta
+                                fuga placeat hic.</p>
+                            <p class="permanent-drawer-right-container-content">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Modi, reiciendis consectetur obcaecati delectus sed harum deserunt
+                                aliquam animi earum! Harum laudantium architecto ipsam earum corporis incidunt soluta
+                                fuga placeat hic.</p>
+                            <p class="permanent-drawer-right-container-content">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Modi, reiciendis consectetur obcaecati delectus sed harum deserunt
+                                aliquam animi earum! Harum laudantium architecto ipsam earum corporis incidunt soluta
+                                fuga placeat hic.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="component-code-showcase">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2846%2C54%2C62%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=26px&wc=true&wa=true&pv=41px&ph=47px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522permanent-drawer%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Caside%2520class%253D%2522drawer-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522drawer-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522drawer-title%2522%253EMail%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%2520class%253D%2522drawer-subtitle%2522%253Eemail%2540compact.ui%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522drawer-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522drawer-list-item%2522%253E%253Ci%2520class%253D%2522fas%2520fa-inbox%2522%253E%253C%252Fi%253E%2520Inbox%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522drawer-list-item%2522%253E%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%2520Star%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522drawer-list-item%2522%253E%253Ci%2520class%253D%2522fas%2520fa-paper-plane%2522%253E%253C%252Fi%253E%2520Sent%2520Mail%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522drawer-list-item%2522%253E%253Ci%2520class%253D%2522far%2520fa-envelope-open%2522%253E%253C%252Fi%253E%2520Drafts%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Chr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522drawer-subtitle%2522%253ELabels%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522drawer-list-item%2522%253E%253Ci%2520class%253D%2522fas%2520fa-bookmark%2522%253E%253C%252Fi%253EFamily%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522drawer-list-item%2522%253E%253Ci%2520class%253D%2522fas%2520fa-bookmark%2522%253E%253C%252Fi%253EFriends%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522drawer-list-item%2522%253E%253Ci%2520class%253D%2522fas%2520fa-bookmark%2522%253E%253C%252Fi%253EWork%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Chr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522drawer-list-item%2522%253E%253Ci%2520class%253D%2522fas%2520fa-cog%2522%253E%253C%252Fi%253ESettings%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522drawer-list-item%2522%253E%253Ci%2520class%253D%2522fas%2520fa-headset%2522%253E%253C%252Fi%253EHelp%2520%2526%2520feedback%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Chr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522drawer-list-item%2520reverse%2522%253E%253Ci%2520class%253D%2522fas%2520fa-inbox%2522%253E%253C%252Fi%253E%2520Inbox%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522drawer-list-item%2520reverse%2522%253E%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%2520Star%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522drawer-list-item%2520reverse%2522%253E%253Ci%2520class%253D%2522fas%2520fa-paper-plane%2522%253E%253C%252Fi%253E%2520Sent%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Mail%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522drawer-list-item%2520reverse%2522%253E%253Ci%2520class%253D%2522far%2520fa-envelope-open%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Drafts%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Faside%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522permanent-drawer-right-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522permanent-drawer-right-container-header%2522%253EPermanent%2520Drawer%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522permanent-drawer-right-container-content%2522%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520adipisicing%2520elit.%2520Modi%252C%2520reiciendis%2520conse"
+                        style="width: 100%; height: 1000px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <div class="pagination">
+                    <a href="./chips.html" class="pagination-link"><i class="fas fa-arrow-circle-left"></i>
+                        Chips</a>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="../js/chips.js"></script>
+</body>
+
+</html>

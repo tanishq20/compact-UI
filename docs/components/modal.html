@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compact UI | Modal</title>
+    <script src="https://kit.fontawesome.com/4f4010c8fe.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../stylesheets/main.css">
+    <link rel="stylesheet" href="../../stylesheets/style.css">
+    <link rel="shortcut icon" href="../../assets/logo/favicon.ico">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="nav-left">
+                <a href="../../index.html" class="nav-left-link">
+                    <img src="../../assets/logo/logo.png" alt="logo">
+                    Compact UI
+                </a>
+            </div>
+            <div class="nav-right">
+                <ul>
+                    <li><a href="../../index.html" class="nav-right-link">Home <i class="fas fa-home"></i></a></li>
+                    <li><a href="../introduction.html" class="nav-right-link">Docs <i class="fas fa-file-word"></i></a>
+                    </li>
+                    <li><a href="https://github.com/tanishq20" target="_blank" class="nav-right-link">GitHub <i
+                                class="fab fa-github"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="doc-container">
+            <aside class="sidebar">
+                <div class="sidebar-heading">Getting Started</div>
+                <ul class="sidebar-items">
+                    <li class="sidebar-items-link"><a href="../introduction.html">Introduction</a></li>
+                    <li class="sidebar-items-link"><a href="../installation.html">Installation</a></li>
+                </ul>
+                <div class="sidebar-heading">Components</div>
+                <ul class="sidebar-items">
+                    <li class="sidebar-items-link"><a href="./avatar.html">Avatar</a></li>
+                    <li class="sidebar-items-link"><a href="./badge.html">Badge</a></li>
+                    <li class="sidebar-items-link"><a href="./alert.html">Alert</a></li>
+                    <li class="sidebar-items-link"><a href="./button.html">Button</a></li>
+                    <li class="sidebar-items-link"><a href="./card.html">Card</a></li>
+                    <li class="sidebar-items-link"><a href="./image.html">Image</a></li>
+                    <li class="sidebar-items-link"><a href="./input.html">Input</a></li>
+                    <li class="sidebar-items-link"><a href="./snackbar.html">Snackbar</a></li>
+                    <li class="sidebar-items-link"><a href="./rating.html">Rating</a></li>
+                    <li class="sidebar-items-link"><a href="./header.html">Header</a></li>
+                    <li class="sidebar-items-link active-state"><a href="./modal.html">Modal</a></li>
+                </ul>
+                <div class="sidebar-heading">Customization</div>
+                <ul class="sidebar-items">
+                    <li class="sidebar-items-link"><a href="#">Theme</a></li>
+                    <li class="sidebar-items-link"><a href="#">Palette</a></li>
+                    <li class="sidebar-items-link"><a href="#">Typography</a></li>
+                </ul>
+                <div class="sidebar-heading">Overview</div>
+                <ul class="sidebar-items">
+                    <li class="sidebar-items-link"><a href="#">Conclusion</a></li>
+                    <li class="sidebar-items-link"><a href="#">Get involved</a></li>
+                </ul>
+            </aside>
+
+            <main class="main-content">
+                <h1 class="main-head">Modal</h1>
+                <p class="main-desc">Modals display information in a window or help a user focus on a task without
+                    navigating them away from the page. A user cannot perform other actions until the modal is
+                    dismissed.
+                </p>
+                <div class="section-change"></div>
+
+                <!-- Alert Modal -->
+
+                <h3 class="main-subhead">Alert Modal</h3>
+                <p class="main-desc">To obtain this result, use <code>div</code> tag with
+                    <code>modal-alert-container</code>, <code>position-relative</code>, <code>dismiss-btn</code>,
+                    <code>modal-alert-header</code>, <code>modal-alert-body</code> and <code>modal-alert-action</code>
+                    class
+                    name.
+                </p>
+                <div class="component-showcase rounded-5">
+                    <div class="modal-alert-container position-relative rounded-5">
+                        <button class="dismiss-btn"><i class="far fa-times-circle dismiss-btn-icon"></i></button>
+                        <h3 class="modal-alert-header">Discard draft?</h3>
+                        <p class="modal-alert-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint
+                            dolorem
+                            aspernatur
+                            architecto natus ullam optio provident nostrum amet eaque minus rem incidunt, doloribus,
+                            facilis nihil quos dolore, nesciunt placeat enim!
+                        </p>
+                        <div class="modal-alert-action">
+                            <a href="#">CANCEL</a>
+                            <a href="#">DISCARD</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="component-code-showcase">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2846%2C54%2C62%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=26px&wc=true&wa=true&pv=41px&ph=47px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal-alert-container%2520position-relative%2520rounded-5%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522dismiss-btn%2522%253E%253Ci%2520class%253D%2522far%2520fa-times-circle%2520dismiss-btn-icon%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522modal-alert-header%2522%253EDiscard%2520draft%253F%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522modal-alert-body%2522%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%252C%2520consectetur%2520adipisicing%2520elit.%2520Sint%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520dolorem%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520aspernatur%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520architecto%2520natus%2520ullam%2520optio%2520provident%2520nostrum%2520amet%2520eaque%2520minus%2520rem%2520incidunt%252C%2520doloribus%252C%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520facilis%2520nihil%2520quos%2520dolore%252C%2520nesciunt%2520placeat%2520enim%21%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-alert-action%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253ECANCEL%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253EDISCARD%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 100%; height: 480px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <div class="section-change"></div>
+
+                <!-- Simple Modal -->
+
+                <h3 class="main-subhead">Simple Modal</h3>
+                <p class="main-desc">To obtain this result, use <code>div</code> tag with
+                    <code>modal-simple-container</code>, <code>modal-simple-header</code>,
+                    <code>modal-simple-body</code> and
+                    <code>modal-simple-body-item</code> class name.
+                </p>
+                <div class="component-showcase rounded-5">
+                    <div class="modal-simple-container rounded-5">
+                        <h3 class="modal-simple-header">Set backup account</h3>
+                        <div class="modal-simple-body">
+                            <div class="modal-simple-body-item">
+                                <img src="../../assets/modal/man-avatar.png" alt="avatar">
+                                <p>user01@gmail.com</p>
+                            </div>
+                            <div class="modal-simple-body-item">
+                                <img src="../../assets/modal/woman-avatar.png" alt="avatar">
+                                <p>user02@gmail.com</p>
+                            </div>
+                            <div class="modal-simple-body-item">
+                                <img src="../../assets/modal/add-avatar.png" alt="avatar">
+                                <p>Add account</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="component-code-showcase">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2846%2C54%2C62%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=26px&wc=true&wa=true&pv=41px&ph=47px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal-simple-container%2520rounded-5%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522modal-simple-header%2522%253ESet%2520backup%2520account%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-simple-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-simple-body-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Fmodal%252Fman-avatar.png%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253Euser01%2540gmail.com%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-simple-body-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Fmodal%252Fwoman-avatar.png%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253Euser02%2540gmail.com%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-simple-body-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Fmodal%252Fadd-avatar.png%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EAdd%2520account%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 100%; height: 500px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <div class="section-change"></div>
+
+                <!-- Confirmation Modal -->
+
+                <h3 class="main-subhead">Confirmation Modal</h3>
+                <p class="main-desc">To obtain this result, use <code>div</code> tag with
+                    <code>modal-confirmation-container</code>, <code>modal-confirmation-header</code>,
+                    <code>modal-confirmation-body</code>,
+                    <code>modal-confirmation-body-item</code>, <code>modal-confirmation-action</code> and
+                    <code>modal-confirmation-action-item</code> class
+                    name.
+                </p>
+                <div class="component-showcase rounded-5">
+                    <div class="modal-confirmation-container rounded-5">
+                        <h3 class="modal-confirmation-header">Digital Camera Brand</h3>
+                        <form class="modal-confirmation-body">
+                            <div class="modal-confirmation-body-item">
+                                <input type="radio" id="canon" name="camera">
+                                <label for="canon">Canon</label>
+                            </div>
+                            <div class="modal-confirmation-body-item">
+                                <input type="radio" id="nikon" name="camera">
+                                <label for="nikon">Nikon</label>
+                            </div>
+                            <div class="modal-confirmation-body-item">
+                                <input type="radio" id="sony" name="camera">
+                                <label for="sony">Sony</label>
+                            </div>
+                            <div class="modal-confirmation-body-item">
+                                <input type="radio" id="fujifilm" name="camera">
+                                <label for="fujifilm">Fujifilm</label>
+                            </div>
+                            <div class="modal-confirmation-body-item">
+                                <input type="radio" id="olympus" name="camera">
+                                <label for="olympus">Olympus</label>
+                            </div>
+                            <div class="modal-confirmation-body-item">
+                                <input type="radio" id="panasonic" name="camera">
+                                <label for="panasonic">Panasonic</label>
+                            </div>
+                            <div class="modal-confirmation-body-item">
+                                <input type="radio" id="pentax" name="camera">
+                                <label for="pentax">Pentax</label>
+                            </div>
+                            <div class="modal-confirmation-body-item">
+                                <input type="radio" id="leica" name="camera">
+                                <label for="leica">Leica</label>
+                            </div>
+                            <div class="modal-confirmation-body-item">
+                                <input type="radio" id="hasselblad" name="camera">
+                                <label for="hasselblad">Hasselblad</label>
+                            </div>
+                            <div class="modal-confirmation-body-item">
+                                <input type="radio" id="goPro" name="camera">
+                                <label for="goPro">GoPro</label>
+                            </div>
+
+                        </form>
+                        <div class="modal-confirmation-action">
+                            <a href="#" class="modal-confirmation-action-item">CANCEL</a>
+                            <a href="#" class="modal-confirmation-action-item">SELECT</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="component-code-showcase">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2846%2C54%2C62%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=26px&wc=true&wa=true&pv=41px&ph=47px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal-confirmation-container%2520rounded-5%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522modal-confirmation-header%2522%253EDigital%2520Camera%2520Brand%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%253Cform%2520class%253D%2522modal-confirmation-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-confirmation-body-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522canon%2522%2520name%253D%2522camera%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522canon%2522%253ECanon%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-confirmation-body-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522nikon%2522%2520name%253D%2522camera%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522nikon%2522%253ENikon%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-confirmation-body-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522sony%2522%2520name%253D%2522camera%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522sony%2522%253ESony%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-confirmation-body-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522fujifilm%2522%2520name%253D%2522camera%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522fujifilm%2522%253EFujifilm%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-confirmation-body-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522olympus%2522%2520name%253D%2522camera%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522olympus%2522%253EOlympus%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-confirmation-body-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522panasonic%2522%2520name%253D%2522camera%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522panasonic%2522%253EPanasonic%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-confirmation-body-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522pentax%2522%2520name%253D%2522camera%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522pentax%2522%253EPentax%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-confirmation-body-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522leica%2522%2520name%253D%2522camera%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522leica%2522%253ELeica%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-confirmation-body-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522hasselblad%2522%2520name%253D%2522camera%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522hasselblad%2522%253EHasselblad%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-confirmation-body-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522goPro%2522%2520name%253D%2522camera%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522goPro%2522%253EGoPro%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%253C%252Fform%253E%250A%2520%2520%2520%2520%2520"
+                        style="width: 100%; height: 1000px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <div class="pagination">
+                    <a href="./header.html" class="pagination-link"><i class="fas fa-arrow-circle-left"></i>
+                        Header</a>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,143 @@
+/* Common styes */
+
+.modal-alert-container,
+.modal-simple-container {
+  background-color: var(--white);
+  padding: 2rem;
+}
+
+.modal-alert-header,
+.modal-simple-header,
+.modal-confirmation-header {
+  color: var(--secondary-color);
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+/* Alert Modal */
+
+.modal-alert-container {
+  width: min(100%, 35rem);
+}
+
+.modal-alert-body {
+  font-size: 1.6rem;
+  font-weight: 500;
+  padding: 2rem 0rem;
+  color: var(--black-500);
+}
+
+.modal-alert-action {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  font-size: 2rem;
+  gap: 1rem;
+}
+
+.modal-alert-action a {
+  color: var(--primary-color);
+  font-weight: 600;
+  padding: 5px;
+}
+
+.modal-alert-action a:hover {
+  background-color: var(--black-hover);
+  border-radius: 5px;
+}
+
+/* Simple Modal */
+
+.modal-simple-container {
+  width: min(100%, 30rem);
+}
+
+.modal-simple-header {
+  padding: 1rem;
+}
+
+.modal-simple-body-item {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.6rem;
+  padding: 1rem;
+}
+
+.modal-simple-body-item img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+.modal-simple-body-item p {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--black-500);
+}
+
+/* Confirmation Modal */
+
+.modal-confirmation-container {
+  background-color: var(--white);
+  width: min(100%, 30rem);
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+}
+
+.modal-confirmation-header {
+  padding: 2rem;
+  background-color: var(--grey-200);
+  border-bottom: 1px solid var(--grey);
+}
+
+.modal-confirmation-body {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.modal-confirmation-body-item {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  padding: 1rem;
+  margin: 5px;
+}
+
+.modal-confirmation-body-item label {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--black-500);
+}
+
+.modal-confirmation-action {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  font-size: 2rem;
+  gap: 1rem;
+  background-color: var(--grey-200);
+  border-top: 1px solid var(--grey);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+}
+
+.modal-confirmation-action a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: 600;
+  padding: 5px;
+}
+
+.modal-confirmation-action a:hover {
+  background-color: var(--black-hover);
+  border-radius: 5px;
+}

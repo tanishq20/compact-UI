@@ -10,20 +10,26 @@
 }
 
 .rating-checked {
-  color: var(--success-800);
+  color: var(--success-400);
 }
 
 .rating-badge {
+  width: max-content;
   display: flex;
-  gap: 8px;
-  background-color: var(--success-800);
-  padding: 8px;
-  border-radius: 25px;
+  align-items: center;
+  gap: 5px;
+  color: var(--white);
+  background-color: var(--success-400);
+  padding: 3px 5px;
+  border-radius: 5px;
 }
 
-.rating-badge-text,
+.rating-badge-text {
+  font-size: 1.4rem;
+}
+
 .rating-badge-icon {
-  font-size: 1.6rem;
+  font-size: 1rem;
 }
 
 .rating-badge-text {

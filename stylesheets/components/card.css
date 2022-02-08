@@ -13,19 +13,19 @@
   padding: 1.25rem;
 }
 
-.card-header h2 {
+.card-subhead {
   font-size: 1.8rem;
   color: var(--default-hover);
   font-weight: 700;
 }
 
-.card-header span {
+.card-header-tag {
   font-size: 1.2rem;
   color: var(--black-500);
   font-weight: 600;
 }
 
-.card-body p {
+.card-body {
   font-size: 1.6rem;
   color: var(--secondary-color);
   font-weight: 600;
@@ -52,7 +52,6 @@
 
 .card-footer {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   padding: 1.6rem;
@@ -106,7 +105,9 @@
 }
 
 .card-overlap,
-.card-dismiss {
+.card-dismiss,
+.ecomm-card,
+.ecomm-card-horz {
   position: relative;
 }
 
@@ -155,4 +156,133 @@
   text-transform: uppercase;
   font-size: 2.4rem;
   font-weight: 500;
+}
+
+/******** Ecommerce card ********/
+/* common style  */
+
+.ecomm-card .card-header,
+.ecomm-card-horz .card-header {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.ecomm-card .card-footer,
+.ecomm-card-horz .card-footer {
+  gap: 1rem;
+}
+
+.ecomm-card,
+.ecomm-card-horz {
+  background-color: var(--white);
+}
+
+.ecomm-prod-image {
+  margin: auto;
+  max-height: 200px;
+  padding: 1rem;
+}
+
+.card-item-price {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0 1.25rem;
+}
+
+.card-item-curr-price {
+  font-size: 2.8rem;
+  font-weight: 500;
+  color: var(--black);
+}
+
+.card-item-disc-price {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--black-500);
+  text-decoration: line-through;
+}
+
+.card-item-disc-per {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--success-400);
+}
+
+.wishlist-btn {
+  cursor: pointer;
+  padding: 0.8rem;
+  border: transparent;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  position: absolute;
+  top: 5px;
+  right: 8px;
+  border-radius: 50%;
+}
+
+.wishlist-btn-icon {
+  color: var(--grey);
+  font-size: 2.4rem;
+}
+
+.wishlist-btn-icon:hover {
+  color: var(--danger-700);
+}
+
+/* vertical ecomm card */
+
+.ecomm-card {
+  max-width: 30rem;
+}
+
+/* Overlay card */
+
+.ecomm-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.5;
+  background-color: var(--grey);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.ecomm-overlay-text {
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 1rem;
+  background-color: var(--black);
+  color: var(--white);
+  width: 100%;
+  text-align: center;
+}
+
+/* horizontal ecomm card */
+
+.ecomm-card-horz {
+  width: fit-content;
+  padding: 1.25rem;
+}
+
+.ecomm-card-horz .card-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.ecomm-card-horz .ecomm-card-body {
+  padding: 1.2rem;
+}
+
+/* social media card */
+
+.social-card {
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
 }

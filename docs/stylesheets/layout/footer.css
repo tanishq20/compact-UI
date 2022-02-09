@@ -1,0 +1,79 @@
+/* footer css */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background: var(--secondary-400);
+  padding: 2rem 0;
+  color: var(--white);
+}
+
+.footer-head {
+  font-size: 1.6rem;
+}
+
+.footer-head-link {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--active-color);
+}
+
+.footer-head-link:hover {
+  color: var(--active-hover);
+}
+
+/* social media css  */
+.social-buttons {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: fit-content;
+  gap: 1rem;
+}
+
+.social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border: 5px solid;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition: all 0.5s;
+  font-size: 2.8rem;
+  color: var(--white);
+}
+
+.social-icon.github-icon {
+  border-color: var(--github-color);
+  background-color: var(--github-color);
+}
+
+.social-icon.github-icon:hover {
+  color: var(--github-color);
+  background-color: var(--white);
+}
+
+.social-icon.linkedin-icon {
+  border-color: var(--linkedin-color);
+  background-color: var(--linkedin-color);
+}
+
+.social-icon.linkedin-icon:hover {
+  color: var(--linkedin-color);
+  background-color: var(--white);
+}
+
+.social-icon.twitter-icon {
+  border-color: var(--twitter-color);
+  background-color: var(--twitter-color);
+}
+
+.social-icon.twitter-icon:hover {
+  color: var(--twitter-color);
+  background-color: var(--white);
+}

@@ -1,48 +1,139 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
 
 /* Heading sizes */
-.heading-1 {
-  font-size: 4.8rem;
-  line-height: 6.4rem;
+h1 {
+  font-size: var(--font-s-2xl);
+  line-height: var(--font-s-3xl);
+  font-weight: var(--font-w-bold);
 }
 
-.heading-2 {
-  font-size: 3.2rem;
-  line-height: 4rem;
+h2 {
+  font-size: var(--font-s-xl);
+  line-height: var(--font-s-2xl);
+  font-weight: var(--font-w-semibold);
 }
 
-.heading-3 {
-  font-size: 2.4rem;
-  line-height: 3.2rem;
+h3 {
+  font-size: var(--font-s-lg);
+  line-height: var(--font-s-xl);
+  font-weight: var(--font-w-semibold);
 }
 
-.heading-4 {
-  font-size: 1.6rem;
-  line-height: 2.4rem;
+h4 {
+  font-size: var(--font-s-base);
+  line-height: var(--font-s-lg);
+  font-weight: var(--font-w-medium);
 }
 
-.heading-5 {
-  font-size: 0.8rem;
-  line-height: 1.6rem;
+h5 {
+  font-size: var(--font-s-sm);
+  line-height: var(--font-s-base);
+  font-weight: var(--font-w-medium);
 }
 
-/* Font weight */
+h6 {
+  font-size: var(--font-s-xs);
+  line-height: var(--font-s-sm);
+  font-weight: var(--font-w-normal);
+}
+
+/* Font sizes */
+.txt-xs {
+  font-size: var(--font-s-xs);
+}
+.txt-sm {
+  font-size: var(--font-s-sm);
+}
+.txt-base {
+  font-size: var(--font-s-base);
+}
+.txt-md {
+  font-size: var(--font-s-md);
+}
+.txt-lg {
+  font-size: var(--font-s-lg);
+}
+.txt-xl {
+  font-size: var(--font-s-xl);
+}
+.txt-2xl {
+  font-size: var(--font-s-2xl);
+}
+.txt-3xl {
+  font-size: var(--font-s-3xl);
+}
+
+/* Font weights */
+.font-thin {
+  font-weight: var(--font-w-thin);
+}
+
+.font-extralight {
+  font-weight: var(--font-w-extralight);
+}
+
 .font-light {
-  font-weight: 300;
+  font-weight: var(--font-w-light);
 }
 
-.font-regular {
-  font-weight: 400;
+.font-normal {
+  font-weight: var(--font-w-normal);
+}
+
+.font-medium {
+  font-weight: var(--font-w-medium);
 }
 
 .font-semibold {
-  font-weight: 600;
+  font-weight: var(--font-w-semibold);
 }
 
 .font-bold {
-  font-weight: 700;
+  font-weight: var(--font-w-bold);
+}
+
+.font-extrabold {
+  font-weight: var(--font-w-extrabold);
 }
 
 .font-bolder {
-  font-weight: 900;
+  font-weight: var(--font-w-bolder);
+}
+
+/* Text align */
+.txt-center {
+  text-align: center;
+}
+
+.txt-left {
+  text-align: left;
+}
+
+.txt-right {
+  text-align: right;
+}
+
+.txt-justify {
+  text-align: justify;
+}
+
+/* Text color */
+
+.txt-normal {
+  color: var(--text-color);
+}
+.txt-default {
+  color: var(--default-color);
+}
+.txt-primary {
+  color: var(--primary-color);
+}
+.txt-secondary {
+  color: var(--secondary-color);
+}
+.txt-active {
+  color: var(--active-color);
+}
+.txt-grey {
+  color: var(--grey);
 }

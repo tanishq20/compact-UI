@@ -40,7 +40,36 @@
   --indigo: #6610f2;
   --indigo-500: #3f51b5;
 
-  --github-color: black;
+  --github-color: #000000;
   --linkedin-color: #0976b4;
   --twitter-color: #55acee;
+
+  /* Font sizes */
+  --font-s-xs: 0.8rem;
+  --font-s-sm: 1.2rem;
+  --font-s-base: 1.6rem;
+  --font-s-md: 1.8rem;
+  --font-s-lg: 2.4rem;
+  --font-s-xl: 3.2rem;
+  --font-s-2xl: 4rem;
+  --font-s-3xl: 4.8rem;
+
+  /* Font weights */
+
+  --font-w-thin: 100;
+  --font-w-extralight: 200;
+  --font-w-light: 300;
+  --font-w-normal: 400;
+  --font-w-medium: 500;
+  --font-w-semibold: 600;
+  --font-w-bold: 700;
+  --font-w-extrabold: 800;
+  --font-w-bolder: 900;
+
+  /* Border radius */
+
+  --border-r-sm: 5px;
+  --border-r-md: 10px;
+  --border-r-lg: 15px;
+  --border-r-round: 50%;
 }

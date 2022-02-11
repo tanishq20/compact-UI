@@ -2,6 +2,16 @@
   display: flex;
 }
 
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -12,6 +22,10 @@
 
 .justify-end {
   justify-content: flex-end;
+}
+
+.items-unset {
+  align-items: unset;
 }
 
 .left {

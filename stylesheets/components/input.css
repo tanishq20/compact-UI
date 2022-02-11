@@ -29,20 +29,53 @@
   border: 1px solid var(--blueGrey-500);
 }
 
-.input-container.error .input-label {
+.input-container.input-success .input-field {
+  border: 1px solid var(--success-600);
+  background-color: var(--success-500);
+}
+
+.input-container.input-success .input-success-msg {
+  font-size: 1.2rem;
+  color: var(--success-600);
+  font-weight: var(--font-w-medium);
+}
+
+.input-container.input-error .input-label {
   color: var(--danger-600);
 }
 
-.input-container.error .input-field {
+.input-container.input-error .input-field {
   border: 1px solid var(--danger-600);
+  background-color: var(--danger-500);
 }
 
-.input-container.error .error-msg {
+.input-container.input-error .input-error-msg {
   font-size: 1.2rem;
   color: var(--danger-600);
+  font-weight: 500;
+}
+
+.input-success-icon,
+.input-error-icon {
+  font-size: var(--font-s-sm);
 }
 
 .required-mark {
   font-size: 1.6rem;
   color: var(--danger-600);
+}
+
+.input-selector {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.input-selector-label {
+  font-size: var(--font-s-base);
+}
+
+.input-selector-field {
+  accent-color: var(--primary-color);
 }

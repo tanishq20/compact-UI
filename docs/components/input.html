@@ -79,7 +79,8 @@
 
                 <h3 class="main-subhead">Input fields</h3>
                 <p class="main-desc">To obtain this result, use <code>label</code> and <code>input</code> tag with
-                    <code>input-label</code> and <code>input-filed</code> class name respectively.
+                    <code>email</code> | <code>password</code> type and
+                    <code>input-label</code>, <code>input-field</code> class name respectively.
                 </p>
                 <div class="component-showcase rounded-5">
                     <div class="input-container">
@@ -102,42 +103,108 @@
                 </div>
                 <div class="section-change"></div>
 
-                <!-- Input fields with error -->
+                <!-- Input fields with validation -->
 
-                <h3 class="main-subhead">Input fields with error</h3>
+                <h3 class="main-subhead">Input fields with validation</h3>
                 <p class="main-desc">To obtain this result, use <code>label</code> and <code>input</code> tag with
-                    <code>input-label</code> and <code>input-filed</code> class name respectively. Add
-                    <code>error</code> class to show
+                    <code>email</code> | <code>password</code> type and <code>input-label</code>,
+                    <code>input-field</code> class name
+                    respectively. Add
+                    <code>success</code> | <code>error</code> class to show
                     error.
                 </p>
                 <div class="component-showcase rounded-5">
-                    <div class="input-container">
+                    <div class="input-container input-success">
                         <label for="email" class="input-label">Email Address <span
                                 class="required-mark">*</span></label>
                         <input type="email" id="email" class="input-field" placeholder="xyz@compactui.com" required>
+                        <span class="input-success-msg">Valid Email Id <i
+                                class="far fa-check-circle input-success-icon"></i></span>
                     </div>
-                    <div class="input-container error">
+                    <div class="input-container input-error">
                         <label for="password" class="input-label">Password <span class="required-mark">*</span></label>
                         <input type="password" for="password" class="input-field" required>
-                        <span class="error-msg">Incorrect Password. Please try again.</span>
+                        <span class="input-error-msg">Incorrect Password. Please try again <i
+                                class="fa fa-solid fa-exclamation input-error-icon"></i></span>
                     </div>
                     <button class="btn btn-primary">Submit</button>
                 </div>
                 <div class="component-code-showcase">
                     <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%2846%2C54%2C62%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=26px&wc=true&wa=true&pv=41px&ph=47px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522email%2522%2520class%253D%2522input-label%2522%253EEmail%2520Address%2520%253Cspan%2520class%253D%2522required-mark%2522%253E*%253C%252Fspan%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522email%2522%2520id%253D%2522email%2522%2520class%253D%2522input-field%2522%2520placeholder%253D%2522xyz%2540compactui.com%2522%2520required%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522input-container%2520error%2522%253E%250A%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522password%2522%2520class%253D%2522input-label%2522%253EPassword%2520%253Cspan%2520class%253D%2522required-mark%2522%253E*%253C%252Fspan%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522password%2522%2520for%253D%2522password%2522%2520class%253D%2522input-field%2522%2520required%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522error-msg%2522%253EIncorrect%2520Password.%2520Please%2520try%2520again.%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253ESubmit%253C%252Fbutton%253E"
-                        style="width: 100%; height: 420px; border:0; transform: scale(1); overflow:hidden;"
+                        src="https://carbon.now.sh/embed?bg=rgba%2846%2C54%2C62%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=26px&wc=true&wa=true&pv=41px&ph=47px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-container%2520input-success%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522email%2522%2520class%253D%2522input-label%2522%253EEmail%2520Address%2520%253Cspan%2520class%253D%2522required-mark%2522%253E*%253C%252Fspan%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522email%2522%2520id%253D%2522email%2522%2520class%253D%2522input-field%2522%2520placeholder%253D%2522xyz%2540compactui.com%2522%2520required%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522input-success-msg%2522%253EValid%2520Email%2520Id%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-check-circle%2520input-success-icon%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522input-container%2520input-error%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522password%2522%2520class%253D%2522input-label%2522%253EPassword%2520%253Cspan%2520class%253D%2522required-mark%2522%253E*%253C%252Fspan%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522password%2522%2520for%253D%2522password%2522%2520class%253D%2522input-field%2522%2520required%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522input-error-msg%2522%253EIncorrect%2520Password.%2520Please%2520try%2520again%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-solid%2520fa-exclamation%2520input-error-icon%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253ESubmit%253C%252Fbutton%253E"
+                        style="width: 100%; height: 411px; border:0; transform: scale(1); overflow:hidden;"
                         sandbox="allow-scripts allow-same-origin">
                     </iframe>
                     </iframe>
                 </div>
                 <div class="section-change"></div>
 
+                <!-- Radio button -->
+
+                <h3 class="main-subhead">Radio button</h3>
+                <p class="main-desc">To obtain this result, use <code>input</code> and <code>label</code> tag with
+                    <code>radio</code> type and <code>input-selector-field</code>, <code>input-selector-label</code>
+                    class name respectively.
+                </p>
+                <div class="component-showcase rounded-5">
+                    <div class="input-selector">
+                        <input type="radio" name="quiz" id="radio-1" class="input-selector-field">
+                        <label for="radio-1" class="input-selector-label">Radio 1</label>
+                    </div>
+                    <div class="input-selector">
+                        <input type="radio" name="quiz" id="radio-2" class="input-selector-field">
+                        <label for="radio-2" class="input-selector-label">Radio 2</label>
+                    </div>
+                    <div class="input-selector" class="input-label">
+                        <input type="radio" name="quiz" id="radio-3" class="input-selector-field">
+                        <label for="radio-3" class="input-selector-label">Radio 3</label>
+                    </div>
+                </div>
+                <div class="component-code-showcase">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2846%2C54%2C62%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=26px&wc=true&wa=true&pv=41px&ph=47px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-selector%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522quiz%2522%2520id%253D%2522radio-1%2522%2520class%253D%2522input-selector-field%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522radio-1%2522%2520class%253D%2522input-selector-label%2522%253ERadio%25201%253C%252Flabel%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522input-selector%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522quiz%2522%2520id%253D%2522radio-2%2522%2520class%253D%2522input-selector-field%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522radio-2%2522%2520class%253D%2522input-selector-label%2522%253ERadio%25202%253C%252Flabel%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522input-selector%2522%2520class%253D%2522input-label%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522quiz%2522%2520id%253D%2522radio-3%2522%2520class%253D%2522input-selector-field%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522radio-3%2522%2520class%253D%2522input-selector-label%2522%253ERadio%25203%253C%252Flabel%253E%250A%253C%252Fdiv%253E"
+                        style="width: 100%; height: 392px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <div class="section-change"></div>
+
+                <!-- Checkbox button -->
+
+                <h3 class="main-subhead">Checkbox button</h3>
+                <p class="main-desc">To obtain this result, use <code>input</code> and <code>label</code> tag with
+                    <code>checkout</code> type and <code>input-selector-field</code>, <code>input-selector-label</code>
+                    class name respectively.
+                </p>
+                <div class="component-showcase rounded-5">
+                    <div class="input-selector">
+                        <input type="checkbox" name="filter" id="" class="input-selector-field" id="checkbox-1">
+                        <label for="checkbox-1" class="input-selector-label">Checkbox 1</label>
+                    </div>
+                    <div class="input-selector">
+                        <input type="checkbox" name="filter" id="rdio-2" class="input-selector-field">
+                        <label for="checkbox-2" class="input-selector-label">Checkbox 2</label>
+                    </div>
+                    <div class="input-selector" class="input-label">
+                        <input type="checkbox" name="filter" id="checkbox-3" class="input-selector-field">
+                        <label for="checkbox-3" class="input-selector-label">Checkbox 3</label>
+                    </div>
+                </div>
+                <div class="component-code-showcase">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2846%2C54%2C62%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=10px&dsblur=26px&wc=true&wa=true&pv=41px&ph=47px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-selector%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520name%253D%2522filter%2522%2520id%253D%2522%2522%2520class%253D%2522input-selector-field%2522%2520id%253D%2522checkbox-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522checkbox-1%2522%2520class%253D%2522input-selector-label%2522%253ECheckbox%25201%253C%252Flabel%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522input-selector%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520name%253D%2522filter%2522%2520id%253D%2522rdio-2%2522%2520class%253D%2522input-selector-field%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522checkbox-2%2522%2520class%253D%2522input-selector-label%2522%253ECheckbox%25202%253C%252Flabel%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522input-selector%2522%2520class%253D%2522input-label%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520name%253D%2522filter%2522%2520id%253D%2522checkbox-3%2522%2520class%253D%2522input-selector-field%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522checkbox-3%2522%2520class%253D%2522input-selector-label%2522%253ECheckbox%25203%253C%252Flabel%253E%250A%253C%252Fdiv%253E"
+                        style="width: 100%; height: 392px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <div class="section-change"></div>
+
                 <!-- Textarea -->
 
                 <h3 class="main-subhead">Textarea</h3>
                 <p class="main-desc">To obtain this result, use <code>label</code> and <code>textarea</code> tag with
-                    <code>input-label</code> and <code>input-filed</code> class name respectively.
+                    <code>input-label</code> and <code>input-field</code> class name respectively.
                 </p>
                 <div class="component-showcase rounded-5">
                     <div class="input-container">

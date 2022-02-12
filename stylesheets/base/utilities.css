@@ -75,3 +75,7 @@
 .rounded-left-5 {
   border-bottom-left-radius: 5px;
 }
+
+.w-full {
+  width: 100%;
+}

@@ -17,6 +17,7 @@
   font-size: 1.8rem;
   color: var(--default-hover);
   font-weight: 700;
+  line-height: inherit;
 }
 
 .card-header-tag {
@@ -127,6 +128,7 @@
 
 .card-badge-item {
   position: absolute;
+  color: var(--white);
   background-color: var(--black);
   font-size: 1.6rem;
   font-weight: 600;
@@ -226,10 +228,20 @@
 .wishlist-btn-icon {
   color: var(--grey);
   font-size: 2.4rem;
+  transition: all 0.3s ease-in-out;
 }
 
 .wishlist-btn-icon:hover {
   color: var(--danger-700);
+}
+
+.wishlist-btn-icon-checked {
+  color: var(--danger-700);
+  font-size: var(--font-s-lg);
+  transition: all 0.3s ease-in-out;
+}
+.wishlist-btn-icon-checked:hover {
+  color: var(--grey);
 }
 
 /* vertical ecomm card */
@@ -266,8 +278,16 @@
 /* horizontal ecomm card */
 
 .ecomm-card-horz {
-  width: fit-content;
+  max-width: 50rem;
   padding: 1.25rem;
+}
+
+.ecomm-card-horz .ecomm-prod-image {
+  max-width: 20%;
+}
+
+.ecomm-card-horz .card-badge-item {
+  top: unset;
 }
 
 .ecomm-card-horz .card-content {

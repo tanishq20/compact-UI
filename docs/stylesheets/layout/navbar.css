@@ -4,10 +4,9 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  padding: 2.4rem 3.2rem;
+  padding: 1rem 3.2rem;
   background-color: var(--secondary-400);
   color: var(--white);
-  transition: all 0.3s ease-in-out;
 }
 
 .nav-left {
@@ -20,7 +19,7 @@
   align-items: center;
   gap: 2rem;
   font-size: 3.2rem;
-  transition: all 0.3s ease-in-out;
+  font-weight: var(--font-w-medium);
 }
 
 .nav-right {
@@ -37,7 +36,6 @@
 .nav-right-link {
   font-size: 1.8rem;
   font-weight: 600;
-  transition: all 0.3s ease-in-out;
 }
 
 .nav-right-link i {
@@ -47,4 +45,5 @@
 .nav-left-link:hover,
 .nav-right-link:hover {
   color: var(--text-color);
+  transition: all 0.3s ease-in-out;
 }

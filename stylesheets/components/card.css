@@ -282,8 +282,12 @@
   padding: 1.25rem;
 }
 
-.ecomm-card-horz .ecomm-prod-image {
+.ecomm-card-horz-img {
   max-width: 20%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .ecomm-card-horz .card-badge-item {

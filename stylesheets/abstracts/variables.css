@@ -3,6 +3,7 @@
   --success-700: #13653f;
   --success-600: #198754;
   --success-400: #388e3c;
+  --success-300: #3cff00;
   --success-500: #c3e6cb;
 
   --danger-800: #721c24;
@@ -26,6 +27,7 @@
 
   --black: #000000;
   --black-hover: #0000001a;
+  --black-light: #00000080;
   --black-500: #585858;
   --white: #ffffff;
   --white-hover: #ffffff99;

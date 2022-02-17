@@ -73,7 +73,9 @@
 }
 
 .input-selector-label {
+  color: var(--white);
   font-size: var(--font-s-base);
+  font-weight: var(--font-w-medium);
 }
 
 .input-selector-field {

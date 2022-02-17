@@ -9,6 +9,7 @@ footer {
   padding: 2rem 0;
   gap: 1rem;
   color: var(--white);
+  margin-top: auto;
 }
 
 .footer-head {

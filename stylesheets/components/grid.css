@@ -1,0 +1,23 @@
+.component-grid-showcase {
+  width: 100%;
+  color: var(--off-white);
+  background-color: var(--default-hover);
+  padding: 2rem;
+  margin-bottom: 3rem;
+  box-shadow: 0 0 5px rgb(0 0 0 / 60%);
+}
+
+.grid-content {
+  background-color: var(--text-color);
+  color: var(--default-hover);
+  padding: 2rem;
+  text-align: center;
+}
+
+.grid-gap {
+  grid-gap: 2rem;
+}
+
+.grid-autofit {
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+}

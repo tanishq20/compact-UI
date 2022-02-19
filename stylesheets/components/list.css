@@ -1,0 +1,11 @@
+.list {
+  font-size: 2rem;
+}
+
+.list-item {
+  padding: 8px;
+}
+
+.list-style-none {
+  list-style: none;
+}

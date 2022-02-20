@@ -14,7 +14,6 @@
 ### <div align="center"> Compact UI is an open-source, cross-platform component library that give designers and developers a free hand to create engaging product experiences. </div>
 
 <hr />
-<br>
 
 # Import Links
 
@@ -35,7 +34,6 @@
 > Copy-paste the given stylesheet link before all other stylesheets to load our CSS.
 
 <hr />
-<br>
 
 # Website Walkthrough
 
@@ -46,7 +44,6 @@
 https://compact-ui.netlify.app/
 
 <hr />
-<br>
 
 # Overview
 
@@ -75,7 +72,6 @@ https://compact-ui.netlify.app/
 - [Drawer](https://compact-ui.netlify.app/docs/components/drawer.html)
 
 <hr />
-<br>
 
 # How to Contribute to this repository
 
@@ -87,12 +83,10 @@ https://compact-ui.netlify.app/
 6. Push these changes to your fork using `git push origin <branch-name>`
 7. Create a pull request to the main repo.
 
-<br>
+## Things to keep in mind before submitting a PR:
 
-> Things to keep in mind before submitting a PR:
->
-> - Make sure your branches are up to date with the master branch of the main repo.
-> - Add the upstream repo by using `git remote add upstream <upstream-repo-link>`
-> - Fetch the latest commit details using `git fetch upstream` and merge them using `git merge upstream/master master`
+- Make sure your branches are up to date with the master branch of the main repo.
+- Add the upstream repo by using `git remote add upstream <upstream-repo-link>`
+- Fetch the latest commit details using `git fetch upstream` and merge them using `git merge upstream/master master`
 
 <p align="right">(<a href="#top">back to top</a>)</p>

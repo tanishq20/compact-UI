@@ -149,7 +149,6 @@ body {
 
 .sm-sidebar-header {
   background-color: var(--secondary-color);
-  color: var(white);
   display: flex;
 }
 

@@ -231,18 +231,18 @@
   transition: all 0.3s ease-in-out;
 }
 
-.wishlist-btn-icon:hover {
+/* .wishlist-btn-icon:hover {
   color: var(--danger-700);
-}
+} */
 
 .wishlist-btn-icon-checked {
   color: var(--danger-700);
   font-size: var(--font-s-lg);
   transition: all 0.3s ease-in-out;
 }
-.wishlist-btn-icon-checked:hover {
+/* .wishlist-btn-icon-checked:hover {
   color: var(--grey);
-}
+} */
 
 /* vertical ecomm card */
 
